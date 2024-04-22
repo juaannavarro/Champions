@@ -4,6 +4,7 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 import time
+import csv
 
 # Configuración de Chrome para correr en modo sin cabeza
 chrome_options = Options()
@@ -35,29 +36,32 @@ soup = BeautifulSoup(html_content, 'html.parser')
 grupos = soup.find_all('div', class_='ui-table__body')
 
 letras_del_grupo = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-clasificados_por_grupo = {}  # Diccionario para almacenar los dos primeros de cada grupo
+clasificados_por_grupo = []  # Lista para almacenar todos los equipos clasificados con su grupo correspondiente
 
 for grupo_index, grupo in enumerate(grupos):
-    # Inicializa una lista vacía para los dos primeros equipos de este grupo
-    clasificados_por_grupo[letras_del_grupo[grupo_index]] = []
-    
     rows = grupo.find_all('div', class_='ui-table__row')[:2]  # Limita a los dos primeros equipos
-
     for row in rows:
         equipo_info = {}  # Diccionario para almacenar información del equipo
-        
-        equipo_info['rank'] = row.find('div', class_='table__cell--rank').text.strip()
-        equipo_info['team_name'] = row.find('a', class_='tableCellParticipant__name').text.strip()
-        
-        # Extracción de otros datos como partidos jugados, victorias, empates, derrotas, etc.
+        equipo_info['Grupo'] = letras_del_grupo[grupo_index]
+        equipo_info['Rank'] = row.find('div', class_='table__cell--rank').text.strip()
+        equipo_info['Team Name'] = row.find('a', class_='tableCellParticipant__name').text.strip()
         data_cells = row.find_all('span', class_='table__cell--value')
-        equipo_info['matches_played'] = data_cells[0].text.strip()
-        equipo_info['wins'] = data_cells[1].text.strip()
-        equipo_info['draws'] = data_cells[2].text.strip()
-        equipo_info['losses'] = data_cells[3].text.strip()
-        equipo_info['goals'] = data_cells[4].text.strip()  # "goles a favor:goles en contra"
-        equipo_info['goal_difference'] = data_cells[5].text.strip()
-        equipo_info['points'] = data_cells[6].text.strip()
+        equipo_info['Matches Played'] = data_cells[0].text.strip()
+        equipo_info['Wins'] = data_cells[1].text.strip()
+        equipo_info['Draws'] = data_cells[2].text.strip()
+        equipo_info['Losses'] = data_cells[3].text.strip()
+        equipo_info['Goals'] = data_cells[4].text.strip()  # "goles a favor:goles en contra"
+        equipo_info['Goal Difference'] = data_cells[5].text.strip()
+        equipo_info['Points'] = data_cells[6].text.strip()
         
-        # Añade el equipo actual a la lista del grupo correspondiente
-        clasificados_por_grupo[letras_del_grupo[grupo_index]].append(equipo_info)
+        clasificados_por_grupo.append(equipo_info)
+
+# Guardar los datos en un archivo CSV
+with open('clasificacion_fase_grupos_champions_league.csv', 'w', newline='', encoding='utf-8') as file:
+    fieldnames = ['Grupo', 'Rank', 'Team Name', 'Matches Played', 'Wins', 'Draws', 'Losses', 'Goals', 'Goal Difference', 'Points']
+    writer = csv.DictWriter(file, fieldnames=fieldnames)
+    writer.writeheader()
+    writer.writerows(clasificados_por_grupo)
+
+print("La clasificación de la fase de grupos se ha guardado correctamente en 'clasificacion_fase_grupos_champions_league.csv'.")
+

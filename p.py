@@ -1,5 +1,5 @@
-from goleadores import *
-from fasegrupos import *
+from scrapping.goleadores import *
+from scrapping.fasegrupos import *
 
 
 # Asumiendo que clasificados_por_grupo y Goleadores están definidos como se discutió anteriormente

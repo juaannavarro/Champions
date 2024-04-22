@@ -1,5 +1,5 @@
-from goleadores import *
-from fasegrupos import *
+from scrapping.goleadores import *
+from scrapping.fasegrupos import *
 import random
 
 # Función para simular los resultados de los partidos basados en la fuerza del equipo y goleadores
