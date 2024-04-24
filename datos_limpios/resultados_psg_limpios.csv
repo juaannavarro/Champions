@@ -1,0 +1,39 @@
+Temporada,Fecha,Ronda,Día,Sedes,Resultado,Goles a favor,Goles en contra,Adversario,xG,xGA,Posesión,Asistencia,Capitán,Formación,Árbitro,Informe,Notas
+2023-08-12,21:00,Ligue 1,Semana 1 de partido,Sáb,Local,E,0.0,0.0,Lorient,1.2,0.1,78.0,"47,000",Danilo Pereira,4-3-3,Bastien Dechepy,Informe del partido
+2023-08-19,21:00,Ligue 1,Semana 2 de partido,Sáb,Visitante,E,1.0,1.0,Toulouse,2.1,1.2,76.0,"27,332",Marquinhos,4-3-3,Thomas Léonard,Informe del partido
+2023-08-26,21:00,Ligue 1,Semana 3 de partido,Sáb,Local,V,3.0,1.0,Lens,1.5,0.5,66.0,"47,864",Marquinhos,4-4-2,François Letexier,Informe del partido
+2023-09-03,20:45,Ligue 1,Semana 4 de partido,Dom,Visitante,V,4.0,1.0,Lyon,4.5,2.1,69.0,"51,657",Marquinhos,4-4-2,Eric Wattellier,Informe del partido
+2023-09-15,21:00,Ligue 1,Semana 5 de partido,Vie,Local,D,2.0,3.0,Nice,1.0,1.3,69.0,"47,874",Kylian Mbappé,4-3-3,Clément Turpin,Informe del partido
+2023-09-19,21:00,Champions Lg,Etapa de grupo,Mar,Local,V,2.0,0.0,de Dortmund,2.4,0.7,67.0,"47,379",Marquinhos,4-3-3,Jesús Gil,Informe del partido
+2023-09-24,20:45,Ligue 1,Semana 6 de partido,Dom,Local,V,4.0,0.0,Marseille,1.9,0.7,76.0,"47,000",Marquinhos,4-4-2,Willy Delajod,Informe del partido
+2023-09-30,17:00,Ligue 1,Semana 7 de partido,Sáb,Visitante,E,0.0,0.0,Clermont Foot,3.0,1.0,67.0,"10,757",Marquinhos,4-4-2,Marc Bollengier,Informe del partido
+2023-10-04,20:00 (21:00),Champions Lg,Etapa de grupo,Mié,Visitante,D,1.0,4.0,eng Newcastle Utd,0.9,0.9,73.0,"52,009",Marquinhos,4-2-3-1,István Kovács,Informe del partido
+2023-10-08,20:45,Ligue 1,Semana 8 de partido,Dom,Visitante,V,3.0,1.0,Rennes,3.5,1.1,58.0,"27,734",Marquinhos,4-3-3,Benoît Bastien,Informe del partido
+2023-10-21,17:00,Ligue 1,Semana 9 de partido,Sáb,Local,V,3.0,0.0,Strasbourg,2.0,0.4,76.0,"41,261",Marquinhos,4-2-2-2,Bastien Dechepy,Informe del partido
+2023-10-25,21:00,Champions Lg,Etapa de grupo,Mié,Local,V,3.0,0.0,it Milan,1.3,0.6,61.0,"45,962",Marquinhos,4-3-3,Slavko Vinčič,Informe del partido
+2023-10-29,13:00,Ligue 1,Semana 10 de partido,Dom,Visitante,V,3.0,2.0,Brest,2.1,1.8,56.0,"15,183",Kylian Mbappé,4-2-2-2,Jérôme Brisard,Informe del partido
+2023-11-03,21:00,Ligue 1,Semana 11 de partido,Vie,Local,V,3.0,0.0,Montpellier,1.1,0.5,70.0,"47,647",Marquinhos,4-2-2-2,Ruddy Buquet,Informe del partido
+2023-11-07,21:00,Champions Lg,Etapa de grupo,Mar,Visitante,D,1.0,2.0,it Milan,1.5,1.4,69.0,"75,649",Marquinhos,4-3-3,Jesús Gil,Informe del partido
+2023-11-11,17:00,Ligue 1,Semana 12 de partido,Sáb,Visitante,V,3.0,0.0,Reims,2.3,1.3,61.0,"20,500",Marquinhos,4-2-2-2,Willy Delajod,Informe del partido
+2023-11-24,21:00,Ligue 1,Semana 13 de partido,Vie,Local,V,5.0,2.0,Monaco,2.6,1.6,54.0,"47,896",Kylian Mbappé,4-3-3,Benoît Bastien,Informe del partido
+2023-11-28,21:00,Champions Lg,Etapa de grupo,Mar,Local,E,1.0,1.0,eng Newcastle Utd,4.4,1.3,72.0,"46,435",Kylian Mbappé,4-3-3,Szymon Marciniak,Informe del partido
+2023-12-03,13:00,Ligue 1,Semana 14 de partido,Dom,Visitante,V,2.0,0.0,Le Havre,1.2,2.0,39.0,"23,718",Kylian Mbappé,4-3-3,Bastien Dechepy,Informe del partido
+2023-12-09,21:00,Ligue 1,Semana 15 de partido,Sáb,Local,V,2.0,1.0,Nantes,2.0,0.5,65.0,"47,926",Marquinhos,4-3-3,Jérôme Brisard,Informe del partido
+2023-12-13,21:00,Champions Lg,Etapa de grupo,Mié,Visitante,E,1.0,1.0,de Dortmund,2.8,1.4,59.0,"81,365",Marquinhos,3-4-3,Glenn Nyberg,Informe del partido
+2023-12-17,20:45,Ligue 1,Semana 16 de partido,Dom,Visitante,E,1.0,1.0,Lille,1.4,1.4,59.0,"47,993",Marquinhos,3-4-3,Willy Delajod,Informe del partido
+2023-12-20,21:00,Ligue 1,Semana 17 de partido,Mié,Local,V,3.0,1.0,Metz,2.4,0.1,74.0,"48,229",Marquinhos,3-4-3,Ruddy Buquet,Informe del partido
+2024-01-14,20:45,Ligue 1,Semana 18 de partido,Dom,Visitante,V,2.0,0.0,Lens,1.8,2.1,65.0,"38,200",Marquinhos,4-3-3,Jérôme Brisard,Informe del partido
+2024-01-28,20:45,Ligue 1,Semana 19 de partido,Dom,Local,E,2.0,2.0,Brest,2.1,0.7,54.0,"47,000",Kylian Mbappé,4-3-3,Clément Turpin,Informe del partido
+2024-02-02,21:00,Ligue 1,Semana 20 de partido,Vie,Visitante,V,2.0,1.0,Strasbourg,2.0,2.7,62.0,"25,834",Marquinhos,4-3-3,Ruddy Buquet,Informe del partido
+2024-02-10,21:00,Ligue 1,Semana 21 de partido,Sáb,Local,V,3.0,1.0,Lille,2.8,1.2,52.0,"47,000",Danilo Pereira,4-1-4-1,François Letexier,Informe del partido
+2024-02-14,21:00,Champions Lg,Ronda de 16,Mié,Local,V,2.0,0.0,es Real Sociedad,1.2,0.7,62.0,"46,435",Marquinhos,4-3-3,Marco Guida,Informe del partido
+2024-02-17,21:00,Ligue 1,Semana 22 de partido,Sáb,Visitante,V,2.0,0.0,Nantes,1.5,1.3,77.0,"34,038",Marquinhos,4-3-3,Jérôme Brisard,Informe del partido
+2024-02-25,17:05,Ligue 1,Semana 23 de partido,Dom,Local,E,1.0,1.0,Rennes,1.9,0.8,66.0,"47,874",Kylian Mbappé,4-3-3,Bastien Dechepy,Informe del partido
+2024-03-01,21:00,Ligue 1,Semana 24 de partido,Vie,Visitante,E,0.0,0.0,Monaco,1.5,1.6,68.0,"14,700",Kylian Mbappé,4-3-3,Ruddy Buquet,Informe del partido
+2024-03-05,21:00,Champions Lg,Ronda de 16,Mar,Visitante,V,2.0,1.0,es Real Sociedad,1.4,0.9,56.0,"39,336",Kylian Mbappé,4-3-1-2,Michael Oliver,Informe del partido
+2024-03-10,13:00,Ligue 1,Semana 25 de partido,Dom,Local,E,2.0,2.0,Reims,1.2,1.3,64.0,"46,000",Danilo Pereira,4-3-3,Willy Delajod,Informe del partido
+2024-03-17,20:45,Ligue 1,Semana 26 de partido,Dom,Visitante,V,6.0,2.0,Montpellier,1.5,2.3,68.0,"19,202",Kylian Mbappé,4-3-3,Florent Batta,Informe del partido
+2024-03-31,20:45,Ligue 1,Semana 27 de partido,Dom,Visitante,V,2.0,0.0,Marseille,2.1,1.4,53.0,"66,046",Kylian Mbappé,4-3-1-2,Benoît Bastien,Informe del partido
+2024-04-06,21:00,Ligue 1,Semana 28 de partido,Sáb,Local,E,1.0,1.0,Clermont Foot,2.7,0.3,73.0,"47,607",Danilo Pereira,4-3-3,Gaël Angoula,Informe del partido
+2024-04-10,21:00,Champions Lg,Cuartos de final,Mié,Local,D,2.0,3.0,es Barcelona,1.2,1.9,59.0,"47,470",Marquinhos,4-3-3,Anthony Taylor,Informe del partido
+2024-04-16,21:00,Champions Lg,Cuartos de final,Mar,Visitante,V,4.0,1.0,es Barcelona,2.3,1.1,67.0,"50,309",Marquinhos,4-3-3,István Kovács,Informe del partido

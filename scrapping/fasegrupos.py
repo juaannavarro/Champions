@@ -58,7 +58,7 @@ for grupo_index, grupo in enumerate(grupos):
 
 # Guardar los datos en un archivo CSV
 with open('clasificacion_fase_grupos_champions_league.csv', 'w', newline='', encoding='utf-8') as file:
-    fieldnames = ['Grupo', 'Rank', 'Team Name', 'Matches Played', 'Wins', 'Draws', 'Losses', 'Goals', 'Goal Difference', 'Points']
+    fieldnames = ['Grupo', 'Ranking', 'Equipo', 'Partidos Jugados', 'Victorias', 'Derrotas', 'Empate', 'Goles', 'Diferencia de Goles', 'Puntos']
     writer = csv.DictWriter(file, fieldnames=fieldnames)
     writer.writeheader()
     writer.writerows(clasificados_por_grupo)
