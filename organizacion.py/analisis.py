@@ -31,4 +31,4 @@ if __name__ == "__main__":
 
     for equipo in ['dormund', 'real_madrid', 'bayern', 'psg']:
         estadisticas_equipo = analizar_estadisticas_equipo(f'datos_limpios/estadisticas_{equipo}_limpios.csv')
-        estadisticas_equipo.to_csv(f'analisis_resultados/estadisticas_{equipo}_top5.csv', index=False)
+        estadisticas_equipo.to_csv(f'datos/analisis_resultados/estadisticas_{equipo}_top5.csv', index=False)

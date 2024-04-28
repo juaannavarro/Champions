@@ -26,7 +26,7 @@ if __name__ == "__main__":
         
         # Construir el nombre del archivo de salida
         nombre_limpios = nombre.replace('.csv', '_limpios.csv')
-        ruta_salida = f'datos_limpios/{nombre_limpios}'
+        ruta_salida = f'datos/datos_limpios/{nombre_limpios}'
         
         # Guardar los datos limpios
         datos_limpios.to_csv(ruta_salida, index=False)
