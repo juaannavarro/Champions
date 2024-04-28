@@ -1,14 +1,16 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
-import time
 import csv
 
 # Configuración de Chrome para correr en modo sin cabeza
 chrome_options = Options()
-chrome_options.add_argument("--headless")  # Añade el argumento para correr Chrome en modo sin cabeza
+chrome_options.add_argument("--headless")
 
 # Configura Selenium con ChromeDriver y las opciones de Chrome
 service = Service(ChromeDriverManager().install())
@@ -20,8 +22,8 @@ url = 'https://fbref.com/es/equipos/add600ae/Estadisticas-de-Dortmund'
 # Selenium navega a la página
 driver.get(url)
 
-# Espera a que la página cargue el contenido dinámico
-time.sleep(5)  # Este tiempo de espera asegura que el contenido dinámico se cargue completamente
+# Espera hasta que la tabla esté presente
+WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "matchlogs_for")))
 
 # Obtén el HTML de la página después de que se haya cargado el contenido dinámico
 html_content = driver.page_source
@@ -32,44 +34,42 @@ driver.quit()
 # Parsea el HTML con Beautiful Soup
 soup = BeautifulSoup(html_content, 'html.parser')
 
-# Ajusta este selector según sea necesario para capturar todos los grupos
-stats = soup.find_all('table', class_="stats_table sortable min_width now_sortable sticky_table eq1 re1 le1", id="matchlogs_for")
+# Encuentra la tabla por ID
+stats_table = soup.find('table', id="matchlogs_for")
+rows = stats_table.find_all('tr')[1:]  # Excluye el encabezado
 
-estadisticas = []  # Lista para almacenar las estadísticas del real madrid
+estadisticas = []  # Lista para almacenar las estadísticas
 
-for stat in stats:
-    rows = stat.find_all('tr')
-    for row in rows:
-        stats_info = {}  # Diccionario para almacenar información de las estadísticas
-        th_element = row.find('th', class_='left', scope='row')
-        if th_element:
-            stats_info['Fecha'] = th_element.text.strip()
-            data_cells = row.find_all('td')
-            stats_info['Hora'] = data_cells[0].text.strip()
-            stats_info['Competición'] = data_cells[1].text.strip()
-            stats_info['Ronda'] = data_cells[2].text.strip()
-            stats_info['Día'] = data_cells[3].text.strip()
-            stats_info['Sede'] = data_cells[4].text.strip()
-            stats_info['Resultado'] = data_cells[5].text.strip()
-            stats_info['Goles a favor'] = data_cells[6].text.strip()
-            stats_info['Goles en contra'] = data_cells[7].text.strip()
-            stats_info['Rival'] = data_cells[8].text.strip()
-            stats_info['xG'] = data_cells[9].text.strip()
-            stats_info['xGA'] = data_cells[10].text.strip()
-            stats_info['Posesión'] = data_cells[11].text.strip()
-            stats_info['Asistencia'] = data_cells[12].text.strip()
-            stats_info['Capitán'] = data_cells[13].text.strip()
-            stats_info['Formación'] = data_cells[14].text.strip()
-            stats_info['Árbitro'] = data_cells[15].text.strip()
+for row in rows:
+    cells = row.find_all('td')
+    if cells:
+        stats_info = {
+            'Fecha': row.find('th', {'scope': 'row'}).text.strip(),
+            'Hora': cells[0].text.strip(),
+            'Competición': cells[1].text.strip(),
+            'Ronda': cells[2].text.strip(),
+            'Día': cells[3].text.strip(),
+            'Sede': cells[4].text.strip(),
+            'Resultado': cells[5].text.strip(),
+            'Goles a favor': cells[6].text.strip(),
+            'Goles en contra': cells[7].text.strip(),
+            'Rival': cells[8].text.strip(),
+            'xG': cells[9].text.strip() if len(cells) > 9 else '',
+            'xGA': cells[10].text.strip() if len(cells) > 10 else '',
+            'Posesión': cells[11].text.strip() if len(cells) > 11 else '',
+            'Asistencia': cells[12].text.strip() if len(cells) > 12 else '',
+            'Capitán': cells[13].text.strip() if len(cells) > 13 else '',
+            'Formación': cells[14].text.strip() if len(cells) > 14 else '',
+            'Árbitro': cells[15].text.strip() if len(cells) > 15 else ''
+        }
+        estadisticas.append(stats_info)
 
-
-        
-        
 # Guardar los datos en un archivo CSV
 if estadisticas:
-    with open('resultados_dortmund.csv', 'w', newline='', encoding='utf-8') as file:
+    with open('datos/Resultados_dortmund.csv', 'w', newline='', encoding='utf-8') as file:
         writer = csv.DictWriter(file, fieldnames=estadisticas[0].keys())
         writer.writeheader()
-        writer.writerows(estadisticas)
-else:
-    print("No se encontraron datos para escribir.")
+        for data in estadisticas:
+            writer.writerow(data)
+
+print("Datos recopilados y guardados.")
