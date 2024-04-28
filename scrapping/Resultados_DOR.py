@@ -33,7 +33,7 @@ driver.quit()
 soup = BeautifulSoup(html_content, 'html.parser')
 
 # Ajusta este selector según sea necesario para capturar todos los grupos
-stats = soup.find_all('div', class_='table_container tabbed current is_setup', id="div_matchlogs_for")
+stats = soup.find_all('table', class_="stats_table sortable min_width now_sortable sticky_table eq1 re1 le1", id="matchlogs_for")
 
 estadisticas = []  # Lista para almacenar las estadísticas del real madrid
 
@@ -43,33 +43,33 @@ for stat in stats:
         stats_info = {}  # Diccionario para almacenar información de las estadísticas
         th_element = row.find('th', class_='left', scope='row')
         if th_element:
-            stats_info['Temporada'] = th_element.text.strip()
+            stats_info['Fecha'] = th_element.text.strip()
             data_cells = row.find_all('td')
-            stats_info['Fecha'] = data_cells[0].text.strip()
-            stats_info['Ronda'] = data_cells[1].text.strip()
-            stats_info['Día'] = data_cells[2].text.strip()
-            stats_info['Sedes'] = data_cells[3].text.strip()
-            stats_info['Resultado'] = data_cells[4].text.strip()
-            stats_info['Goles a favor'] = data_cells[5].text.strip()
-            stats_info['Goles en contra'] = data_cells[6].text.strip()
-            stats_info['Adversario'] = data_cells[7].text.strip()
-            stats_info['xG'] = data_cells[8].text.strip()
-            stats_info['xGA'] = data_cells[9].text.strip()
-            stats_info['Posesión'] = data_cells[10].text.strip()
-            stats_info['Asistencia'] = data_cells[11].text.strip()
-            stats_info['Capitán'] = data_cells[12].text.strip()
-            stats_info['Formación'] = data_cells[13].text.strip()
-            stats_info['Árbitro'] = data_cells[14].text.strip()
-            stats_info['Informe'] = data_cells[15].text.strip()
-            stats_info['Notas'] = data_cells[16].text.strip()
-            estadisticas.append(stats_info)
+            stats_info['Hora'] = data_cells[0].text.strip()
+            stats_info['Competición'] = data_cells[1].text.strip()
+            stats_info['Ronda'] = data_cells[2].text.strip()
+            stats_info['Día'] = data_cells[3].text.strip()
+            stats_info['Sede'] = data_cells[4].text.strip()
+            stats_info['Resultado'] = data_cells[5].text.strip()
+            stats_info['Goles a favor'] = data_cells[6].text.strip()
+            stats_info['Goles en contra'] = data_cells[7].text.strip()
+            stats_info['Rival'] = data_cells[8].text.strip()
+            stats_info['xG'] = data_cells[9].text.strip()
+            stats_info['xGA'] = data_cells[10].text.strip()
+            stats_info['Posesión'] = data_cells[11].text.strip()
+            stats_info['Asistencia'] = data_cells[12].text.strip()
+            stats_info['Capitán'] = data_cells[13].text.strip()
+            stats_info['Formación'] = data_cells[14].text.strip()
+            stats_info['Árbitro'] = data_cells[15].text.strip()
 
 
         
         
 # Guardar los datos en un archivo CSV
-
-with open('resultados_dormund.csv', 'w', newline='', encoding='utf-8') as file:
-    writer = csv.DictWriter(file, fieldnames=estadisticas[0].keys())
-    writer.writeheader()
-    writer.writerows(estadisticas)
+if estadisticas:
+    with open('resultados_dortmund.csv', 'w', newline='', encoding='utf-8') as file:
+        writer = csv.DictWriter(file, fieldnames=estadisticas[0].keys())
+        writer.writeheader()
+        writer.writerows(estadisticas)
+else:
+    print("No se encontraron datos para escribir.")
