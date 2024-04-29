@@ -1,63 +1,76 @@
 import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import accuracy_score
-import matplotlib.pyplot as plt
 
-# Cargando los datos
-datos_estadisticas = pd.read_csv('datos/datos_limpios/estadisticas_bayern_limpios.csv')
-datos_resultados = pd.read_csv('datos/datos_limpios/resultados_bayern_limpios.csv')
+# Función para calcular estadísticas clave por posición
+def summarize_by_position(data):
+    # Convertir columnas de interés a numérico y manejar valores faltantes
+    data['Minutos'] = pd.to_numeric(data['Minutos'].str.replace(',', ''), errors='coerce')
+    data = data.dropna(subset=['Minutos'])  # Eliminando filas donde los minutos no son disponibles
+    
+    # Agregando métricas de interés
+    metrics = ['Goles', 'Asistencias', 'xG: Goles esperados', 'npxG: Goles esperados (xG) sin contar penaltis', 
+               'xAG: Exp. Assisted Goals', 'Minutos', 'Partidos jugados']
+    # Agrupando por posición y calculando promedios ponderados por minutos jugados
+    summary = data.groupby('Posición')[metrics].apply(
+        lambda x: pd.Series({
+            'Goles por 90': (x['Goles'] / x['Minutos']).sum() * 90,
+            'Asistencias por 90': (x['Asistencias'] / x['Minutos']).sum() * 90,
+            'xG por 90': (x['xG: Goles esperados'] / x['Minutos']).sum() * 90,
+            'npxG por 90': (x['npxG: Goles esperados (xG) sin contar penaltis'] / x['Minutos']).sum() * 90,
+            'xAG por 90': (x['xAG: Exp. Assisted Goals'] / x['Minutos']).sum() * 90,
+            'Partidos jugados promedio': x['Partidos jugados'].mean(),
+            'Minutos promedio': x['Minutos'].mean()
+        })
+    ).reset_index()
+    return summary
 
-# Asegúrate de que los nombres de columnas son correctos
-print("Columnas en datos_estadisticas:", datos_estadisticas.columns.tolist())
-print("Columnas en datos_resultados:", datos_resultados.columns.tolist())
+def calculate_points(results_df):
+    # Suponiendo que los resultados están en la columna 'Resultado' con V=Victoria, E=Empate, D=Derrota
+    points = results_df['Resultado'].map({'V': 3, 'E': 1, 'D': 0}).sum()
+    return points
 
-# Preprocesamiento simple: llenar valores faltantes y convertir a numéricos
-datos_estadisticas.fillna(0, inplace=True)
-datos_resultados.fillna(0, inplace=True)
-datos_resultados.replace({'Resultado': {'V': 3, 'E': 1, 'D': 0}}, inplace=True)
+def main():
+    # Cargando estadísticas y resultados de cada equipo
+    bayern_stats = pd.read_csv('datos/estadisticas_bayern.csv')
+    psg_stats = pd.read_csv('datos/estadisticas_psg.csv')
+    dortmund_stats = pd.read_csv('datos/estadisticas_dortmund.csv')
+    real_madrid_stats = pd.read_csv('datos/estadisticas_real_madrid.csv')
+    
+    bayern_results = pd.read_csv('datos/resultados_bayern.csv')
+    psg_results = pd.read_csv('datos/resultados_psg.csv')
+    dortmund_results = pd.read_csv('datos/Resultados_dortmund.csv')
+    real_madrid_results = pd.read_csv('datos/resultados_real_madrid.csv')
+    
+    # Calculando resumen y puntos para cada equipo
+    bayern_summary = summarize_by_position(bayern_stats)
+    psg_summary = summarize_by_position(psg_stats)
+    dortmund_summary = summarize_by_position(dortmund_stats)
+    real_madrid_summary = summarize_by_position(real_madrid_stats)
 
-# Seleccionando características de ejemplo (asegurándose de que sean numéricas)
-features = ['Goles a favor', 'Goles en contra', 'xG', 'xGA', 'Posesión']
-for feature in features:
-    datos_resultados[feature] = pd.to_numeric(datos_resultados[feature], errors='coerce')
+    bayern_points = calculate_points(bayern_results)
+    psg_points = calculate_points(psg_results)
+    dortmund_points = calculate_points(dortmund_results)
+    real_madrid_points = calculate_points(real_madrid_results)
+    
+    # Imprimiendo resumen y puntos
+    print('Bayern de Múnich:')
+    print(bayern_summary)
+    print('Puntos:', bayern_points)
+    print('\nPSG:')
+    print(psg_summary)
+    print('Puntos:', psg_points)
+    print('\nDortmund:')
+    print(dortmund_summary)
+    print('Puntos:', dortmund_points)
+    print('\nReal Madrid:')
+    print(real_madrid_summary)
+    print('Puntos:', real_madrid_points)
 
-# Comprobando por cualquier valor NaN y ver el tamaño de los datos
-print("Valores NaN después de la conversión numérica:", datos_resultados[features].isna().sum())
-datos_resultados.dropna(inplace=True)  # Limpieza final
-print("Tamaño de datos_resultados después de eliminar NaN:", datos_resultados.shape)
+if __name__ == '__main__':
+    main()
 
-# Asegurándose de que aún hay datos para procesar
-if datos_resultados.empty:
-    raise ValueError("No hay datos para procesar después de la limpieza.")
 
-X = datos_resultados[features]
-y = datos_resultados['Resultado']
 
-# Dividir los datos en entrenamiento y prueba
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# Crear y entrenar el modelo
-modelo = RandomForestClassifier(n_estimators=100, random_state=42)
-modelo.fit(X_train, y_train)
-
-# Predicción en el conjunto de prueba
-predicciones = modelo.predict(X_test)
-
-# Calcular la precisión
-precision = accuracy_score(y_test, predicciones)
-print(f'Precisión del modelo: {precision:.2f}')
-
-# Gráfica de importancia de las características
-importancias = modelo.feature_importances_
-caracteristicas = X.columns
-indices = sorted(range(len(importancias)), key=lambda i: importancias[i], reverse=True)
-
-plt.figure()
-plt.title("Importancia de las Características")
-plt.bar(range(X.shape[1]), importancias[indices], align="center")
-plt.xticks(range(X.shape[1]), [caracteristicas[i] for i in indices], rotation=90)
-plt.show()
 
 
 

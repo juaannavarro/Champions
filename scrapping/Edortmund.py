@@ -84,7 +84,7 @@ for stat in stats:
         
 # Guardar los datos en un archivo CSV
 
-with open('datos/estadisticas_dormund.csv', 'w', newline='', encoding='utf-8') as file:
+with open('datos/estadisticas_dortmund.csv', 'w', newline='', encoding='utf-8') as file:
     writer = csv.DictWriter(file, fieldnames=estadisticas[0].keys())
     writer.writeheader()
     writer.writerows(estadisticas)
