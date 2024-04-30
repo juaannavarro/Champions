@@ -17,7 +17,7 @@ datos_grandes = []
 
 # Columnas a extraer, actualizado según tu requerimiento
 encabezado = ['Temporada', '#', 'Jugador', 'País', 'Posición', 'Equipo', 'Edad', 'Año de Nacimiento',
-              'PJ', 'Titular', 'Mín', '90 s', 'Gls.', 'Ass', 'G+A', 'G-TP', 'TP', 'TPint',
+              'PJ', 'Titular', 'Mín', '90 s', 'Goles.', 'Asistencias', 'G+A', 'G-TP', 'TP', 'TPint',
               'TA', 'TR', 'xG', 'npxG', 'xAG', 'npxG+xAG', 'PrgC', 'PrgP', 'PrgR', 'Gls90.', 'Ast90',
               'G+A90', 'G-TP90', 'G+A-TP90', 'xG90', 'xAG90', 'xG+xAG90', 'npxG90', 'npxG+xAG90', 'Partidos']
 

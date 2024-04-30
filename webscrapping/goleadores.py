@@ -62,7 +62,7 @@ if tabla_goleadores:
         goleadores.append(jugador_info)
 
     # Guardar los datos en un archivo CSV
-    with open('goleadores_champions_league_completo.csv', 'w', newline='', encoding='utf-8') as file:
+    with open('datos/goleadores.csv', 'w', newline='', encoding='utf-8') as file:
         writer = csv.DictWriter(file, fieldnames=['Ranking', 'Nombre', 'Equipo', 'Goles', 'Asistencias'])
         writer.writeheader()
         writer.writerows(goleadores)
