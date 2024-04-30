@@ -1,106 +1,47 @@
 import pandas as pd
-def standardize_headers(df):
-    header_mapping = {
-        'Rk': 'Rank',
-        'Squad': 'Team',
-        'MP': 'Matches_Played',
-        'PJ': 'Matches_Played',
-        'W': 'Wins',
-        'D': 'Draws',
-        'L': 'Losses',
-        'GF': 'Goals_For',
-        'GA': 'Goals_Against',
-        'GD': 'Goal_Difference',
-        'Pts': 'Points',
-        'xG': 'Expected_Goals',
-        'xGA': 'Expected_Goals_Against',
-        'xGD': 'Expected_Goal_Difference',
-        'xGD/90': 'Expected_Goal_Difference_Per_90',
-        'Last 5': 'Last_5_Matches',
-        'Attendance': 'Attendance',
-        'Top Team Scorer': 'Top_Scorer',
-        'Goalkeeper': 'Goalkeeper',
-        'Notes': 'Notes',
-        'Temporada': 'Season',
-        'Round': 'Round',
-        'Day': 'Day',
-        'Date': 'Date',
-        'Time': 'Time',
-        'Home': 'Home_Team',
-        'Score': 'Score',
-        'Away': 'Away_Team',
-        'Venue': 'Venue',
-        'Referee': 'Referee',
-        'Match Report': 'Match_Report',
-        'Nombre': 'Player_Name',
-        'Equipo': 'Team',
-        'Goles': 'Goals',
-        'Asistencias': 'Assists',
-         'Jugador': 'Player',
-        'País': 'Country',
-        'Posición': 'Position',
-        'Edad': 'Age',
-        'Año de Nacimiento': 'Year_of_Birth',
-        'Mín': 'Minutes_Played',
-        '90 s': 'Full_Matches_Played',
-        'Goles.': 'Goals',
-        'G+A': 'Goals_and_Assists',
-        'G-TP': 'Goals_from_Open_Play',
-        'TP': 'Penalties',
-        'TPint': 'Penalties_Intercepted',
-        'TA': 'Yellow_Cards',
-        'TR': 'Red_Cards',
-        'xG90': 'Expected_Goals_Per_90',
-        'xAG90': 'Expected_Assists_Per_90',
-        'xG+xAG90': 'Expected_Goals_and_Assists_Per_90',
-        'npxG90': 'Non_Penalty_Expected_Goals_Per_90',
-        'npxG+xAG90': 'Expected_Non_Penalty_Goals_and_Assists_Per_90',
-        'Partidos': 'Matches',
-        'PrgC': 'Progressive_Carries',
-        'PrgP': 'Progressive_Passes',
-        'PrgR': 'Progressive_Runs'
-    }
-    df.rename(columns=header_mapping, inplace=True)
-    return df
-def load_data(file_path):
-    try:
-        return pd.read_csv(file_path)
-    except FileNotFoundError:
-        print(f"Error: El archivo no fue encontrado en {file_path}")
-        return None
-
-def clean_data(df, critical_columns):
-    if df is None:
-        return None
-    print(df.isna().sum())
-    df.dropna(subset=critical_columns, inplace=True)
-    if 'Squad' in df.columns:
-        df['Squad'] = df['Squad'].apply(lambda x: x.split(' ')[-1])
-    df = standardize_headers(df)
-    return df
-
-
-def save_clean_data(df, file_name):
-    df.to_csv(file_name, index=False)
-
+import re
+import matplotlib.pyplot as plt
+import seaborn as sns
 # Cargar los datos
-data_files = {
-    '23_24': 'datos/23_24.csv',
-    'equipos': 'datos/equipos.csv',
-    'goleadores': 'datos/goleadores.csv',
-    'jugadores': 'datos/jugadores.csv',
-    'zz': 'datos/zz.csv'
-}
+archivo = 'datos/23_24.csv'
+df = pd.read_csv(archivo)
 
-cleaned_data = {}
+# Eliminar columna 'Notes'
+df.drop('Notes', axis=1, inplace=True)
 
-# Limpieza de datos
-for name, path in data_files.items():
-    df = load_data(path)
-    # Asumiendo que 'Pts' y 'Squad' son columnas críticas para '23_24.csv'
-    critical_columns = ['Pts', 'Squad'] if name == '23_24' else None
-    cleaned_df = clean_data(df, critical_columns)
-    save_clean_data(cleaned_df, f'datos/datos_limpios/cleaned_{name}.csv')
-    cleaned_data[name] = cleaned_df
+# Eliminar filas que son completamente vacías o solo contienen 'Season'
+df.dropna(how='all', inplace=True)  # Elimina filas que son totalmente vacías
+df = df.dropna(subset=[col for col in df.columns if col != 'Season'], how='all')  # Elimina filas que solo tienen 'Season'
+
+# Suponiendo que 'Top Team Scorer' es el nombre de la columna y los datos tienen el formato 'Jugador (Goles)'
+if 'Top Team Scorer' in df.columns:
+    # Separar el nombre del goleador y los goles en dos columnas nuevas
+    df['Scorer'] = df['Top Team Scorer'].apply(lambda x: re.findall(r"([a-zA-Z\s]+)", x)[0].strip() if pd.notna(x) else x)
+    df['Goals'] = df['Top Team Scorer'].apply(lambda x: int(re.findall(r"(\d+)", x)[0]) if pd.notna(x) and re.search(r"(\d+)", x) else x)
+
+    # Eliminar la columna original 'Top Team Scorer'
+    df.drop('Top Team Scorer', axis=1, inplace=True)
+
+print(df.head())
 
 
+# Guardar los datos limpios en un nuevo archivo CSV
+
+archivo_limpio = 'datos/limpios/23_24_limpio.csv'
+df.to_csv(archivo_limpio, index=False)
+
+    
+    
+# Visualizar los valores nulos
+plt.figure(figsize=(15, 10))
+sns.heatmap(df.isnull(), yticklabels=False, cbar=False, cmap='viridis')
+plt.title('Mapa de calor de valores nulos en el DataFrame')
+plt.show()
+
+# Mostrar la cantidad de valores nulos por columna
+print("Cantidad de valores nulos por columna:")
+print(df.isnull().sum())
+
+# Opcional: Mostrar el porcentaje de valores nulos por columna
+print("\nPorcentaje de valores nulos por columna:")
+print(df.isnull().mean() * 100)
