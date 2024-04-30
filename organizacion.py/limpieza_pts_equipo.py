@@ -3,13 +3,13 @@ import re
 import matplotlib.pyplot as plt
 import seaborn as sns
 # Cargar los datos
-archivo = 'datos/23_24.csv'
+archivo = 'datos/pts_equipos.csv'
 df = pd.read_csv(archivo)
 
-# Eliminar columna 'Notes'
+#eliminar notas
 df.drop('Notes', axis=1, inplace=True)
 
-# Eliminar filas que son completamente vacías o solo contienen 'Season'
+# Eliminar las filas que solo contienen comas en su mayoría
 df.dropna(how='all', inplace=True)  # Elimina filas que son totalmente vacías
 df = df.dropna(subset=[col for col in df.columns if col != 'Season'], how='all')  # Elimina filas que solo tienen 'Season'
 
@@ -21,18 +21,14 @@ if 'Top Team Scorer' in df.columns:
 
     # Eliminar la columna original 'Top Team Scorer'
     df.drop('Top Team Scorer', axis=1, inplace=True)
-
+# Imputar valores nulos
+df['Scorer'].fillna('Desconocido', inplace=True)  # Imputar con 'Desconocido' para los goleadores
+df['Goals'].fillna(0, inplace=True)  # Imputar con 0 para los goles
 print(df.head())
 
-
-# Guardar los datos limpios en un nuevo archivo CSV
-
-archivo_limpio = 'datos/limpios/23_24_limpio.csv'
-df.to_csv(archivo_limpio, index=False)
-
-    
-
-
+#eliminar attendance
+df.drop('Attendance', axis=1, inplace=True)
+print(df.info())
 # Mostrar la cantidad de valores nulos por columna
 print("Cantidad de valores nulos por columna:")
 print(df.isnull().sum())
@@ -40,3 +36,9 @@ print(df.isnull().sum())
 # Opcional: Mostrar el porcentaje de valores nulos por columna
 print("\nPorcentaje de valores nulos por columna:")
 print(df.isnull().mean() * 100)
+
+
+# Guardar los datos limpios en un nuevo archivo CSV
+
+archivo_limpio = 'datos/limpios/ptos_equipo_limpio.csv'
+df.to_csv(archivo_limpio, index=False)

@@ -1,0 +1,660 @@
+Season,Rk,Squad,MP,W,D,L,GF,GA,GD,Pts,Goalkeeper,Scorer,Goals
+2022-2023,1,engManchester City,13,8,5,0,32,5,+27,29,Ederson,Erling Haaland,12
+2022-2023,2,itInter,13,7,3,3,19,11,+8,24,André Onana,Edin D,4
+2022-2023,SF,esReal Madrid,12,8,2,2,26,13,+13,26,Thibaut Courtois,Vinicius J,7
+2022-2023,SF,itMilan,12,5,3,4,15,11,+4,18,Mike Maignan,Olivier Giroud,5
+2022-2023,QF,deBayern Munich,10,8,1,1,22,6,+16,25,Yann Sommer,Leroy San,4
+2022-2023,QF,itNapoli,10,7,1,2,26,8,+18,22,Alex Meret,Victor Osimhen,5
+2022-2023,QF,ptBenfica,10,6,3,1,26,13,+13,21,Odisseas Vlachodimos,Jo,6
+2022-2023,QF,engChelsea,10,5,1,4,12,9,+3,16,Kepa Arrizabalaga,Raheem Sterling,3
+2022-2023,R16,engLiverpool,8,5,0,3,19,12,+7,15,Alisson,Mohamed Salah,8
+2022-2023,R16,frParis S-G,8,4,2,2,16,10,+6,14,Gianluigi Donnarumma,Kylian Mbapp,7
+2022-2023,R16,ptPorto,8,4,1,3,12,8,+4,13,Diogo Costa,Mehdi Taremi,5
+2022-2023,R16,deRB Leipzig,8,4,1,3,14,17,-3,13,Janis Blaswich,Andr,3
+2022-2023,R16,deDortmund,8,3,3,2,11,7,+4,12,Alexander Meyer,Jude Bellingham,4
+2022-2023,R16,engTottenham,8,3,3,2,8,7,+1,12,Hugo Lloris,Son Heung,2
+2022-2023,R16,beClub Brugge,8,3,2,3,8,11,-3,11,Simon Mignolet,Kamal Sowah,2
+2022-2023,R16,deEint Frankfurt,8,3,1,4,7,13,-6,10,Kevin Trapp,Daichi Kamada,3
+2022-2023,GR,esBarcelona,6,2,1,3,12,12,0,7,Marc-André ter Stegen,Robert Lewandowski,5
+2022-2023,GR,ptSporting CP,6,2,1,3,8,9,-1,7,Antonio Adán,Marcus Edwards,2
+2022-2023,GR,frMarseille,6,2,0,4,8,8,0,6,Pau López,Alexis S,2
+2022-2023,GR,uaShakhtar,6,1,3,2,8,10,-2,6,Anatolii Trubin,Mykhailo Mudryk,3
+2022-2023,GR,atRB Salzburg,6,1,3,2,5,9,-4,6,Philipp Köhn,Noah Okafor,3
+2022-2023,GR,nlAjax,6,2,0,4,11,16,-5,6,Remko Pasveer,Kudus Mohammed,4
+2022-2023,GR,esAtlético Madrid,6,1,2,3,5,9,-4,5,Jan Oblak,Antoine Griezmann,1
+2022-2023,GR,deLeverkusen,6,1,2,3,4,8,-4,5,Lukáš Hrádecký,Moussa Diaby,2
+2022-2023,GR,esSevilla,6,1,2,3,6,12,-6,5,Yassine Bounou,Youssef En,2
+2022-2023,GR,hrDinamo Zagreb,6,1,1,4,4,11,-7,4,Dominik Livaković,Mislav Or,2
+2022-2023,GR,itJuventus,6,1,0,5,9,13,-4,3,Wojciech Szczęsny,Adrien Rabiot,2
+2022-2023,GR,dkFC Copenhagen,6,0,3,3,1,12,-11,3,Kamil Grabara,H,1
+2022-2023,GR,ilMaccabi Haifa,6,1,0,5,7,21,-14,3,Josh Cohen,Tjaronn Chery,2
+2022-2023,GR,sctCeltic,6,0,2,4,4,15,-11,2,Joe Hart,Jota,2
+2022-2023,GR,czViktoria Plzeň,6,0,0,6,5,24,-19,0,Jindřich Staněk,Tom,2
+2022-2023,GR,sctRangers,6,0,0,6,2,22,-20,0,Allan McGregor,Scott Arfield,1
+Rk,Squad,MP,W,D,L,GF,GA,GD,Pts,Attendance,Notes,Goalkeeper,Goalkeeper
+2021-2022,1,esReal Madrid,13,9,0,4,29,14,+15,27,Thibaut Courtois,Karim Benzema,15
+2021-2022,2,engLiverpool,13,10,1,2,30,14,+16,31,Alisson,Mohamed Salah,8
+2021-2022,SF,engManchester City,12,7,2,3,29,16,+13,23,Ederson,Riyad Mahrez,7
+2021-2022,SF,esVillarreal,12,5,3,4,20,16,+4,18,Gerónimo Rulli,Arnaut Danjuma,6
+2021-2022,QF,deBayern Munich,10,7,2,1,31,7,+24,23,Manuel Neuer,Robert Lewandowski,13
+2021-2022,QF,engChelsea,10,7,1,2,21,10,+11,22,Edouard Mendy,Timo Werner,4
+2021-2022,QF,ptBenfica,10,3,4,3,14,17,-3,13,Odisseas Vlachodimos,Darwin N,6
+2021-2022,QF,esAtlético Madrid,10,3,3,4,9,10,-1,12,Jan Oblak,Antoine Griezmann,4
+2021-2022,R16,nlAjax,8,6,1,1,22,8,+14,19,Remko Pasveer,S,11
+2021-2022,R16,itJuventus,8,5,1,2,11,10,+1,16,Wojciech Szczęsny,Paulo Dybala,3
+2021-2022,R16,frParis S-G,8,4,2,2,15,11,+4,14,Gianluigi Donnarumma,Kylian Mbapp,6
+2021-2022,R16,itInter,8,4,1,3,9,7,+2,13,Samir Handanović,Edin D,3
+2021-2022,R16,engManchester Utd,8,3,3,2,12,10,+2,12,David de Gea,Cristiano Ronaldo,6
+2021-2022,R16,frLille,8,3,2,3,8,8,0,11,Ivo Grbić,Jonathan David,3
+2021-2022,R16,atRB Salzburg,8,3,2,3,10,14,-4,11,Philipp Köhn,Karim Adeyemi,3
+2021-2022,R16,ptSporting CP,8,3,1,4,14,17,-3,10,Antonio Adán,Pedro Gon,4
+2021-2022,GR,deDortmund,6,3,0,3,10,11,-1,9,Gregor Kobel,Marco Reus,3
+2021-2022,GR,deRB Leipzig,6,2,1,3,15,14,+1,7,Péter Gulácsi,Christopher Nkunku,7
+2021-2022,GR,mdSheriff Tiraspol,6,2,1,3,7,11,-4,7,Giorgos Athanasiadis,Adama Traor,2
+2021-2022,GR,esBarcelona,6,2,1,3,2,9,-7,7,Marc-André ter Stegen,Gerard Piqu,1
+2021-2022,GR,esSevilla,6,1,3,2,5,5,0,6,Yassine Bounou,Ivan Rakiti,2
+2021-2022,GR,itAtalanta,6,1,3,2,12,13,-1,6,Juan Musso,Duv,3
+2021-2022,GR,ruZenit,6,1,2,3,10,10,0,5,Stanislav Kritsyuk,Claudinho,2
+2021-2022,GR,chYoung Boys,6,1,2,3,7,12,-5,5,"Guillaume Faivre,David von Ballmoos",Jordan Pefok,2
+2021-2022,GR,deWolfsburg,6,1,2,3,5,10,-5,5,Koen Casteels,Lukas Nmecha,2
+2021-2022,GR,ptPorto,6,1,2,3,4,11,-7,5,Diogo Costa,Luis D,2
+2021-2022,GR,itMilan,6,1,1,4,6,9,-3,4,"Mike Maignan,Ciprian Tătărușanu",Rafael Le,1
+2021-2022,GR,beClub Brugge,6,1,1,4,6,20,-14,4,Simon Mignolet,Hans Vanaken,3
+2021-2022,GR,uaShakhtar,6,0,2,4,2,12,-10,2,Anatolii Trubin,Fernando,2
+2021-2022,GR,uaDynamo Kyiv,6,0,1,5,1,11,-10,1,Heorhiy Bushchan,Denys Harmash,1
+2021-2022,GR,seMalmö,6,0,1,5,1,14,-13,1,Johan Dahlin,S,1
+2021-2022,GR,trBeşiktaş,6,0,0,6,3,19,-16,0,Ersin Destanoğlu,Francisco Montero,1
+Rk,Squad,MP,W,D,L,GF,GA,GD,Pts,Attendance,Notes,Goalkeeper,Goalkeeper
+2020-2021,W,engChelsea,13,9,3,1,23,4,+19,30,Edouard Mendy,Olivier Giroud,6
+2020-2021,F,engManchester City,13,11,1,1,25,5,+20,34,Ederson,Riyad Mahrez,4
+2020-2021,SF,esReal Madrid,12,6,3,3,19,14,+5,21,Thibaut Courtois,Karim Benzema,6
+2020-2021,SF,frParis S-G,12,6,1,5,22,15,+7,19,Keylor Navas,Kylian Mbapp,8
+2020-2021,QF,deBayern Munich,10,8,1,1,27,10,+17,25,Manuel Neuer,Robert Lewandowski,5
+2020-2021,QF,engLiverpool,10,6,2,2,15,6,+9,20,Alisson,Mohamed Salah,6
+2020-2021,QF,ptPorto,10,6,1,3,15,9,+6,19,Agustín Marchesín,S,5
+2020-2021,QF,deDortmund,10,5,2,3,19,13,+6,17,Marwin Hitz,Erling Haaland,10
+2020-2021,R16,itJuventus,8,6,0,2,18,8,+10,18,Wojciech Szczęsny,lvaro Morata,6
+2020-2021,R16,esBarcelona,8,5,1,2,18,10,+8,16,Marc-André ter Stegen,Lionel Messi,5
+2020-2021,R16,esSevilla,8,4,2,2,13,13,0,14,Yassine Bounou,Youssef En,6
+2020-2021,R16,deRB Leipzig,8,4,0,4,11,16,-5,12,Péter Gulácsi,Angeli,3
+2020-2021,R16,itAtalanta,8,3,2,3,11,12,-1,11,Marco Sportiello,Luis Muriel,3
+2020-2021,R16,itLazio,8,2,4,2,13,13,0,10,Pepe Reina,Ciro Immobile,5
+2020-2021,R16,esAtlético Madrid,8,2,3,3,7,11,-4,9,Jan Oblak,Jo,3
+2020-2021,R16,deM'Gladbach,8,2,2,4,16,13,+3,8,Yann Sommer,Alassane Pl,5
+2020-2021,GR,engManchester Utd,6,3,0,3,15,10,+5,9,David de Gea,Marcus Rashford,6
+2020-2021,GR,beClub Brugge,6,2,2,2,8,10,-2,8,Simon Mignolet,Hans Vanaken,3
+2020-2021,GR,uaShakhtar,6,2,2,2,5,12,-7,8,Anatolii Trubin,Manor Solomon,2
+2020-2021,GR,nlAjax,6,2,1,3,7,7,0,7,André Onana,Du,2
+2020-2021,GR,itInter,6,1,3,2,7,9,-2,6,Samir Handanović,Romelu Lukaku,4
+2020-2021,GR,ruKrasnodar,6,1,2,3,6,11,-5,5,Matvei Safonov,Marcus Berg,2
+2020-2021,GR,atRB Salzburg,6,1,1,4,10,17,-7,4,Cican Stankovic,Mergim Berisha,4
+2020-2021,GR,uaDynamo Kyiv,6,1,1,4,4,13,-9,4,Heorhiy Bushchan,Viktor Tsyhankov,2
+2020-2021,GR,ruLoko Moscow,6,0,3,3,5,10,-5,3,Guilherme Marinato,Anton Miranchuk,3
+2020-2021,GR,grOlympiacos,6,1,0,5,2,10,-8,3,José Sá,Koka,1
+2020-2021,GR,trBaşakşehir,6,1,0,5,7,18,-11,3,Mert Günok,rfan Kahveci,3
+2020-2021,GR,frMarseille,6,1,0,5,2,13,-11,3,Steve Mandanda,Dimitri Payet,2
+2020-2021,GR,dkMidtjylland,6,0,2,4,4,13,-9,2,Jesper Hansen,Alexander Scholz,2
+2020-2021,GR,frRennes,6,0,1,5,3,11,-8,1,Alfred Gomis,Serhou Guirassy,2
+2020-2021,GR,ruZenit,6,0,1,5,4,13,-9,1,Mikhail Kerzhakov,Artem Dzyuba,1
+2020-2021,GR,huFerencváros,6,0,1,5,5,17,-12,1,Dénes Dibusz,Franck Boli,2
+Rk,Squad,MP,W,D,L,GF,GA,GD,Pts,Attendance,Notes,Goalkeeper,Goalkeeper
+2019-2020,W,deBayern Munich,11,11,0,0,43,8,+35,33,Manuel Neuer,Robert Lewandowski,15
+2019-2020,F,frParis S-G,11,8,1,2,25,6,+19,25,Keylor Navas,Mauro Icardi,5
+2019-2020,SF,deRB Leipzig,10,6,2,2,16,12,+4,20,Péter Gulácsi,Timo Werner,4
+2019-2020,SF,frLyon,10,4,2,4,14,14,0,14,Anthony Lopes,Memphis,6
+2019-2020,QF,engManchester City,9,6,2,1,21,9,+12,20,Ederson,Raheem Sterling,6
+2019-2020,QF,esBarcelona,9,5,3,1,15,14,+1,18,Marc-André ter Stegen,Luis Su,5
+2019-2020,QF,esAtlético Madrid,9,5,1,3,13,9,+4,16,Jan Oblak,lvaro Morata,3
+2019-2020,QF,itAtalanta,9,4,1,4,17,18,-1,13,Pierluigi Gollini,Josip Ili,5
+2019-2020,R16,itJuventus,8,6,1,1,14,6,+8,19,Wojciech Szczęsny,Cristiano Ronaldo,4
+2019-2020,R16,itNapoli,8,3,4,1,13,8,+5,13,Alex Meret,Dries Mertens,6
+2019-2020,R16,engLiverpool,8,4,1,3,15,12,+3,13,Alisson,Mohamed Salah,4
+2019-2020,R16,deDortmund,8,4,1,3,10,11,-1,13,Roman Bürki,Achraf Hakimi,4
+2019-2020,R16,esReal Madrid,8,3,2,3,16,12,+4,11,Thibaut Courtois,Karim Benzema,5
+2019-2020,R16,esValencia,8,3,2,3,13,15,-2,11,Jasper Cillessen,Rodrigo,2
+2019-2020,R16,engChelsea,8,3,2,3,12,16,-4,11,Kepa Arrizabalaga,Tammy Abraham,3
+2019-2020,R16,engTottenham,8,3,1,4,18,18,0,10,"Hugo Lloris,Paulo Gazzaniga",Harry Kane,6
+2019-2020,GR,nlAjax,6,3,1,2,12,6,+6,10,André Onana,Quincy Promes,4
+2019-2020,GR,atRB Salzburg,6,2,1,3,16,13,+3,7,Cican Stankovic,Erling Haaland,8
+2019-2020,GR,itInter,6,2,1,3,10,9,+1,7,Samir Handanović,Lautaro Mart,5
+2019-2020,GR,ptBenfica,6,2,1,3,10,11,-1,7,Odisseas Vlachodimos,Pizzi,3
+2019-2020,GR,ruZenit,6,2,1,3,7,9,-2,7,Mikhail Kerzhakov,Sardar Azmoun,2
+2019-2020,GR,deLeverkusen,6,2,0,4,5,9,-4,6,Lukáš Hrádecký,Sven Bender,1
+2019-2020,GR,uaShakhtar,6,1,3,2,8,13,-5,6,Andriy Pyatov,J,2
+2019-2020,GR,hrDinamo Zagreb,6,1,2,3,10,13,-3,5,Dominik Livaković,Mislav Or,4
+2019-2020,GR,grOlympiacos,6,1,1,4,8,14,-6,4,José Sá,Youssef El,3
+2019-2020,GR,ruLoko Moscow,6,1,0,5,4,11,-7,3,Guilherme Marinato,Aleksei Miranchuk,2
+2019-2020,GR,beClub Brugge,6,0,3,3,4,12,-8,3,Simon Mignolet,Emmanuel Dennis,2
+2019-2020,GR,rsRed Star,6,1,0,5,3,20,-17,3,Milan Borjan,Richmond Boakye,1
+2019-2020,GR,czSlavia Prague,6,0,2,4,4,10,-6,2,Ondřej Kolář,Tom,2
+2019-2020,GR,trGalatasaray,6,0,2,4,1,14,-13,2,Fernando Muslera,Adem B,1
+2019-2020,GR,frLille,6,0,1,5,4,14,-10,1,Mike Maignan,Victor Osimhen,2
+2019-2020,GR,beGenk,6,0,1,5,5,20,-15,1,Gaëtan Coucke,Mbwana Samatta,3
+Rk,Squad,MP,W,D,L,GF,GA,GD,Pts,Attendance,Notes,Goalkeeper,Goalkeeper
+2018-2019,W,engLiverpool,13,8,1,4,24,12,+12,25,Alisson,Mohamed Salah,5
+2018-2019,F,engTottenham,13,6,2,5,20,19,+1,20,Hugo Lloris,Harry Kane,5
+2018-2019,SF,esBarcelona,12,8,3,1,26,10,+16,27,Marc-André ter Stegen,Lionel Messi,12
+2018-2019,SF,nlAjax,12,6,4,2,22,13,+9,22,André Onana,Du,6
+2018-2019,QF,engManchester City,10,7,1,2,30,12,+18,22,Ederson,Sergio Ag,6
+2018-2019,QF,ptPorto,10,6,1,3,20,15,+5,19,Iker Casillas,Moussa Marega,6
+2018-2019,QF,itJuventus,10,5,1,4,14,9,+5,16,Wojciech Szczęsny,Cristiano Ronaldo,6
+2018-2019,QF,engManchester Utd,10,4,1,5,10,11,-1,13,David de Gea,Romelu Lukaku,2
+2018-2019,R16,esAtlético Madrid,8,5,1,2,11,9,+2,16,Jan Oblak,Antoine Griezmann,4
+2018-2019,R16,deBayern Munich,8,4,3,1,16,8,+8,15,Manuel Neuer,Robert Lewandowski,8
+2018-2019,R16,esReal Madrid,8,5,0,3,15,10,+5,15,Thibaut Courtois,Karim Benzema,4
+2018-2019,R16,frParis S-G,8,4,2,2,20,12,+8,14,Gianluigi Buffon,Neymar,5
+2018-2019,R16,deDortmund,8,4,1,3,10,6,+4,13,Roman Bürki,Rapha,4
+2018-2019,R16,itRoma,8,4,0,4,14,12,+2,12,Robin Olsen,Edin D,5
+2018-2019,R16,deSchalke 04,8,3,2,3,8,14,-6,11,Ralf Fährmann,Nabil Bentaleb,3
+2018-2019,R16,frLyon,8,1,6,1,13,16,-3,9,Anthony Lopes,Nabil Fekir,3
+2018-2019,GR,itNapoli,6,2,3,1,7,5,+2,9,David Ospina,Lorenzo Insigne,3
+2018-2019,GR,esValencia,6,2,2,2,6,6,0,8,Neto,Santi Mina,2
+2018-2019,GR,itInter,6,2,2,2,6,7,-1,8,Samir Handanović,Mauro Icardi,4
+2018-2019,GR,ruCSKA Moscow,6,2,1,3,8,9,-1,7,Igor Akinfeev,Nikola Vla,3
+2018-2019,GR,ptBenfica,6,2,1,3,6,11,-5,7,Odisseas Vlachodimos,lex Grimaldo,2
+2018-2019,GR,czViktoria Plzeň,6,2,1,3,7,16,-9,7,Aleš Hruška,Michal Krmen,2
+2018-2019,GR,beClub Brugge,6,1,3,2,6,5,+1,6,"Ethan Horvath,Karlo Letica",Hans Vanaken,2
+2018-2019,GR,uaShakhtar,6,1,3,2,8,16,-8,6,Andriy Pyatov,J,3
+2018-2019,GR,trGalatasaray,6,1,1,4,5,8,-3,4,Fernando Muslera,Eren Derdiyok,2
+2018-2019,GR,chYoung Boys,6,1,1,4,4,12,-8,4,David von Ballmoos,Guillaume Hoarau,3
+2018-2019,GR,rsRed Star,6,1,1,4,5,17,-12,4,Milan Borjan,Milan Pavkov,2
+2018-2019,GR,deHoffenheim,6,0,3,3,11,14,-3,3,Oliver Baumann,Andrej Kramari,5
+2018-2019,GR,ruLoko Moscow,6,1,0,5,4,12,-8,3,Guilherme Marinato,Vladislav Ignatyev,1
+2018-2019,GR,nlPSV Eindhoven,6,0,2,4,6,13,-7,2,Jeroen Zoet,Luuk de Jong,3
+2018-2019,GR,frMonaco,6,0,1,5,2,14,-12,1,Diego Benaglio,Samuel Grandsir,1
+2018-2019,GR,grAEK Athens,6,0,0,6,2,13,-11,0,Vasilios Barkas,Viktor Klonaridis,2
+Rk,Squad,MP,W,D,L,GF,GA,GD,Pts,Attendance,Notes,Goalkeeper,Goalkeeper
+2017-2018,W,esReal Madrid,13,9,2,2,33,16,+17,29,Keylor Navas,Cristiano Ronaldo,15
+2017-2018,F,engLiverpool,13,7,4,2,41,16,+25,25,Loris Karius,Roberto Firmino,10
+2017-2018,SF,deBayern Munich,12,8,2,2,26,12,+14,26,Sven Ulreich,Robert Lewandowski,5
+2017-2018,SF,itRoma,12,6,2,4,21,19,+2,20,Alisson,Edin D,8
+2017-2018,QF,esBarcelona,10,6,3,1,17,6,+11,21,Marc-André ter Stegen,Lionel Messi,6
+2017-2018,QF,engManchester City,10,6,0,4,20,12,+8,18,Ederson,Gabriel Jesus,4
+2017-2018,QF,itJuventus,10,5,3,2,14,12,+2,18,Gianluigi Buffon,Gonzalo Higua,5
+2017-2018,QF,esSevilla,10,3,5,2,15,15,0,14,Sergio Rico,Wissam Ben Yedder,8
+2017-2018,R16,engTottenham,8,5,2,1,18,8,+10,17,Hugo Lloris,Harry Kane,7
+2017-2018,R16,engManchester Utd,8,5,1,2,13,5,+8,16,David de Gea,Romelu Lukaku,5
+2017-2018,R16,frParis S-G,8,5,0,3,27,9,+18,15,Alphonse Areola,Edinson Cavani,7
+2017-2018,R16,chBasel,8,5,0,3,13,10,+3,15,Tomáš Vaclík,Dimitri Oberlin,4
+2017-2018,R16,uaShakhtar,8,5,0,3,11,11,0,15,Andriy Pyatov,Facundo Ferreyra,3
+2017-2018,R16,trBeşiktaş,8,4,2,2,12,13,-1,14,Fabricio,Talisca,4
+2017-2018,R16,engChelsea,8,3,3,2,17,12,+5,12,Thibaut Courtois,Eden Hazard,3
+2017-2018,R16,ptPorto,8,3,2,3,15,15,0,11,José Sá,Vincent Aboubakar,5
+2017-2018,GR,ruCSKA Moscow,6,3,0,3,8,10,-2,9,Igor Akinfeev,Vitinho,2
+2017-2018,GR,esAtlético Madrid,6,1,4,1,5,4,+1,7,Jan Oblak,Antoine Griezmann,2
+2017-2018,GR,deRB Leipzig,6,2,1,3,10,11,-1,7,Péter Gulácsi,Timo Werner,3
+2017-2018,GR,ptSporting CP,6,2,1,3,8,9,-1,7,Rui Patrício,Bas Dost,2
+2017-2018,GR,itNapoli,6,2,0,4,11,11,0,6,Pepe Reina,Lorenzo Insigne,3
+2017-2018,GR,ruSpartak Moscow,6,1,3,2,9,13,-4,6,Aleksandr Selikhov,Quincy Promes,2
+2017-2018,GR,nlFeyenoord,6,1,0,5,5,14,-9,3,Brad Jones,Nicolai J,2
+2017-2018,GR,sctCeltic,6,1,0,5,5,18,-13,3,Craig Gordon,Scott Sinclair,1
+2017-2018,GR,siNK Maribor,6,0,3,3,3,16,-13,3,Jasmin Handanović,Damjan Bohar,1
+2017-2018,GR,beAnderlecht,6,1,0,5,2,17,-15,3,"Frank Boeckx,Matz Sels",Sofiane Hanni,1
+2017-2018,GR,deDortmund,6,0,2,4,7,13,-6,2,Roman Bürki,Pierre,4
+2017-2018,GR,frMonaco,6,0,2,4,6,16,-10,2,"Danijel Subašić,Diego Benaglio",Radamel Falcao,3
+2017-2018,GR,azQarabağ,6,0,2,4,2,14,-12,2,Ibrahim Šehić,M,1
+2017-2018,GR,cyAPOEL FC,6,0,2,4,2,17,-15,2,Nauzet Pérez,Micka,2
+2017-2018,GR,grOlympiacos,6,0,1,5,4,13,-9,1,Silvio Proto,Felipe Pardo,2
+2017-2018,GR,ptBenfica,6,0,0,6,1,14,-13,0,Mile Svilar,Haris Seferovi,1
+Rk,Squad,MP,W,D,L,GF,GA,GD,Pts,Attendance,Notes,Goalkeeper,Goalkeeper
+2016-2017,W,esReal Madrid,13,9,3,1,35,18,+17,30,Keylor Navas,Cristiano Ronaldo,12
+2016-2017,F,itJuventus,13,9,3,1,22,6,+16,30,Gianluigi Buffon,Gonzalo Higua,5
+2016-2017,SF,esAtlético Madrid,12,9,1,2,18,10,+8,28,Jan Oblak,Antoine Griezmann,6
+2016-2017,SF,frMonaco,12,5,3,4,19,19,0,18,Danijel Subašić,Kylian Mbapp,6
+2016-2017,QF,esBarcelona,10,6,1,3,26,12,+14,19,Marc-André ter Stegen,Lionel Messi,11
+2016-2017,QF,deBayern Munich,10,6,0,4,27,14,+13,18,Manuel Neuer,Robert Lewandowski,8
+2016-2017,QF,deDortmund,10,5,2,3,28,16,+12,17,Roman Bürki,Pierre,7
+2016-2017,QF,engLeicester City,10,5,2,3,11,10,+1,17,Kasper Schmeichel,Riyad Mahrez,4
+2016-2017,R16,frParis S-G,8,4,3,1,18,13,+5,15,Alphonse Areola,Edinson Cavani,8
+2016-2017,R16,engArsenal,8,4,2,2,20,16,+4,14,David Ospina,Mesut,4
+2016-2017,R16,esSevilla,8,4,2,2,9,6,+3,14,Sergio Rico,Wissam Ben Yedder,2
+2016-2017,R16,engManchester City,8,3,4,1,17,13,+4,13,Willy Caballero,Sergio Ag,5
+2016-2017,R16,ptPorto,8,3,2,3,9,6,+3,11,Iker Casillas,Andr,4
+2016-2017,R16,itNapoli,8,3,2,3,13,14,-1,11,Pepe Reina,Dries Mertens,5
+2016-2017,R16,ptBenfica,8,3,2,3,11,14,-3,11,Ederson,Eduardo Salvio,3
+2016-2017,R16,deLeverkusen,8,2,4,2,11,11,0,10,Bernd Leno,Kevin Kampl,1
+2016-2017,GR,dkFC Copenhagen,6,2,3,1,7,2,+5,9,Robin Olsen,Mathias J,2
+2016-2017,GR,frLyon,6,2,2,2,5,3,+2,8,Anthony Lopes,Corentin Tolisso,2
+2016-2017,GR,engTottenham,6,2,1,3,6,6,0,7,Hugo Lloris,Harry Kane,2
+2016-2017,GR,trBeşiktaş,6,1,4,1,9,14,-5,7,Tolga Zengin,Vincent Aboubakar,3
+2016-2017,GR,uaDynamo Kyiv,6,1,2,3,8,6,+2,5,Artur Rudko,Derlis Gonz,1
+2016-2017,GR,ruRostov,6,1,2,3,6,12,-6,5,Soslan Dzhanayev,Dmitry Poloz,3
+2016-2017,GR,deM'Gladbach,6,1,2,3,5,12,-7,5,Yann Sommer,Lars Stindl,2
+2016-2017,GR,plLegia Warsaw,6,1,1,4,9,24,-15,4,Arkadiusz Malarz,Aleksandar Prijovi,2
+2016-2017,GR,ptSporting CP,6,1,0,5,5,8,-3,3,Rui Patrício,Bruno C,2
+2016-2017,GR,ruCSKA Moscow,6,0,3,3,5,11,-6,3,Igor Akinfeev,Alan Dzagoev,2
+2016-2017,GR,bgLudogorets,6,0,3,3,6,15,-9,3,Vladislav Stoyanov,Jonathan Cafu,2
+2016-2017,GR,sctCeltic,6,0,3,3,5,16,-11,3,Craig Gordon,Moussa Demb,3
+2016-2017,GR,nlPSV Eindhoven,6,0,2,4,4,11,-7,2,Jeroen Zoet,Davy Pr,1
+2016-2017,GR,chBasel,6,0,2,4,3,12,-9,2,Tomáš Vaclík,Seydou Doumbia,1
+2016-2017,GR,beClub Brugge,6,0,0,6,2,14,-12,0,Ludovic Butelle,Jelle Vossen,1
+2016-2017,GR,hrDinamo Zagreb,6,0,0,6,0,15,-15,0,Dominik Livaković,Desconocido,0
+Rk,Squad,MP,W,D,L,GF,GA,GD,Pts,Attendance,Notes,Goalkeeper,Goalkeeper
+2015-2016,W,esReal Madrid,13,9,3,1,28,6,+22,30,Keylor Navas,Cristiano Ronaldo,16
+2015-2016,F,esAtlético Madrid,13,6,4,3,17,8,+9,22,Jan Oblak,Antoine Griezmann,7
+2015-2016,SF,deBayern Munich,12,8,2,2,30,11,+19,26,Manuel Neuer,Robert Lewandowski,9
+2015-2016,SF,engManchester City,12,6,3,3,18,12,+6,21,Joe Hart,Kevin De Bruyne,3
+2015-2016,QF,esBarcelona,10,7,2,1,22,8,+14,23,Marc-André ter Stegen,Luis Su,8
+2015-2016,QF,deWolfsburg,10,7,0,3,15,11,+4,21,Diego Benaglio,Julian Draxler,3
+2015-2016,QF,frParis S-G,10,6,2,2,18,6,+12,20,Kevin Trapp,Zlatan Ibrahimovi,5
+2015-2016,QF,ptBenfica,10,5,2,3,15,12,+3,17,Júlio César,Nicol,4
+2015-2016,R16,ruZenit,8,5,0,3,14,9,+5,15,Yuri Lodygin,Artem Dzyuba,6
+2015-2016,R16,engChelsea,8,4,1,3,15,7,+8,13,Asmir Begović,Willian,5
+2015-2016,R16,uaDynamo Kyiv,8,3,3,2,9,7,+2,12,Oleksandr Shovkovskiy,Andriy Yarmolenko,2
+2015-2016,R16,itJuventus,8,3,3,2,10,9,+1,12,Gianluigi Buffon,lvaro Morata,2
+2015-2016,R16,nlPSV Eindhoven,8,3,3,2,8,7,+1,12,Jeroen Zoet,Luuk de Jong,2
+2015-2016,R16,beGent,8,3,1,4,10,11,-1,10,Matz Sels,Danijel Mili,3
+2015-2016,R16,engArsenal,8,3,0,5,13,15,-2,9,Petr Čech,Olivier Giroud,5
+2015-2016,R16,itRoma,8,1,3,4,11,20,-9,6,Wojciech Szczęsny,Miralem Pjani,2
+2015-2016,GR,byBATE Borisov,12,4,4,4,11,16,-5,16,Sergei Chernik,Filip Mladenovi,2
+2015-2016,GR,kzFC Astana,12,3,6,3,14,17,-3,15,Nenad Erić,Patrick Twumasi,2
+2015-2016,GR,hrDinamo Zagreb,12,4,3,5,17,21,-4,15,Eduardo Carvalho,Junior Fern,1
+2015-2016,GR,engManchester Utd,8,4,2,2,14,8,+6,14,David de Gea,Anthony Martial,2
+2015-2016,GR,seMalmö,12,4,1,7,9,26,-17,13,Johan Wiland,Markus Rosenberg,1
+2015-2016,GR,ruCSKA Moscow,10,3,2,5,14,16,-2,11,Igor Akinfeev,Seydou Doumbia,3
+2015-2016,GR,uaShakhtar,10,3,2,5,13,16,-3,11,Andriy Pyatov,Alex Teixeira,3
+2015-2016,GR,ptPorto,6,3,1,2,9,8,+1,10,Iker Casillas,Vincent Aboubakar,3
+2015-2016,GR,deLeverkusen,8,2,3,3,16,13,+3,9,Bernd Leno,Javier Hern,5
+2015-2016,GR,esValencia,8,3,0,5,9,12,-3,9,Jaume Doménech,Jo,1
+2015-2016,GR,grOlympiacos,6,3,0,3,6,13,-7,9,Roberto,Felipe Pardo,3
+2015-2016,GR,ilMaccabi Tel Aviv,12,2,2,8,13,24,-11,8,Predrag Rajković,Eran Zahavi,1
+2015-2016,GR,esSevilla,6,2,0,4,8,11,-3,6,Sergio Rico,Yevhen Konoplyanka,2
+2015-2016,GR,deM'Gladbach,6,1,2,3,8,12,-4,5,Yann Sommer,Lars Stindl,3
+2015-2016,GR,trGalatasaray,6,1,2,3,6,10,-4,5,Fernando Muslera,Lukas Podolski,2
+2015-2016,GR,frLyon,6,1,1,4,5,9,-4,4,Anthony Lopes,Alexandre Lacazette,2
+Rk,Squad,MP,W,D,L,GF,GA,GD,Pts,Attendance,Notes,Goalkeeper,Goalkeeper
+2014-2015,W,esBarcelona,13,11,0,2,31,11,+20,33,Marc-André ter Stegen,Lionel Messi,10
+2014-2015,F,itJuventus,13,7,3,3,17,10,+7,24,Gianluigi Buffon,Carlos Tevez,7
+2014-2015,SF,esReal Madrid,12,8,2,2,24,9,+15,26,Iker Casillas,Cristiano Ronaldo,10
+2014-2015,SF,deBayern Munich,12,8,1,3,33,13,+20,25,Manuel Neuer,Thomas M,7
+2014-2015,QF,ptPorto,12,8,3,1,28,12,+16,27,Fabiano,Jackson Mart,7
+2014-2015,QF,esAtlético Madrid,10,5,2,3,15,5,+10,17,Miguel Ángel Moyá,Mario Mand,5
+2014-2015,QF,frMonaco,10,4,3,3,7,5,+2,15,Danijel Subašić,Aymen Abdennour,1
+2014-2015,QF,frParis S-G,10,4,3,3,14,15,-1,15,Salvatore Sirigu,Edinson Cavani,6
+2014-2015,R16,engArsenal,10,6,2,2,19,11,+8,20,Wojciech Szczęsny,Danny Welbeck,3
+2014-2015,R16,deLeverkusen,10,6,1,3,15,7,+8,19,Bernd Leno,Son Heung,3
+2014-2015,R16,engChelsea,8,4,4,0,20,6,+14,16,Thibaut Courtois,Eden Hazard,3
+2014-2015,R16,deDortmund,8,4,1,3,15,9,+6,13,Roman Weidenfeller,Ciro Immobile,4
+2014-2015,R16,deSchalke 04,8,3,2,3,13,19,-6,11,Ralf Fährmann,Klaas,5
+2014-2015,R16,uaShakhtar,8,2,4,2,15,11,+4,10,Andriy Pyatov,Luiz Adriano,9
+2014-2015,R16,engManchester City,8,2,2,4,10,11,-1,8,Joe Hart,Sergio Ag,6
+2014-2015,R16,chBasel,8,2,2,4,8,13,-5,8,Tomáš Vaclík,Derlis Gonz,3
+2014-2015,GR,ruZenit,10,5,1,4,11,7,+4,16,Yuri Lodygin,Danny,1
+2014-2015,GR,siNK Maribor,12,3,6,3,11,16,-5,15,Jasmin Handanović,Damjan Bohar,1
+2014-2015,GR,bgLudogorets,12,3,4,5,13,18,-5,13,Vladislav Stoyanov,Dani Abalo,2
+2014-2015,GR,seMalmö,12,4,1,7,13,21,-8,13,Robin Olsen,Markus Rosenberg,3
+2014-2015,GR,byBATE Borisov,12,3,3,6,10,28,-18,12,Sergei Chernik,Alyaksandr Karnitsky,1
+2014-2015,GR,esAthletic Club,8,3,2,3,9,8,+1,11,Gorka Iraizoz,Mikel San Jos,2
+2014-2015,GR,grOlympiacos,6,3,0,3,10,13,-3,9,Roberto,Ibrahim Afellay,2
+2014-2015,GR,cyAPOEL FC,10,2,3,5,10,15,-5,9,Urko Pardo,Gustavo Manduca,1
+2014-2015,GR,ptSporting CP,6,2,1,3,12,12,0,7,Rui Patrício,Nani,4
+2014-2015,GR,beAnderlecht,6,1,3,2,8,10,-2,6,Silvio Proto,Aleksandar Mitrovi,2
+2014-2015,GR,nlAjax,6,1,2,3,8,10,-2,5,Jasper Cillessen,Lasse Sch,3
+2014-2015,GR,engLiverpool,6,1,2,3,5,9,-4,5,Simon Mignolet,Steven Gerrard,2
+2014-2015,GR,ptBenfica,6,1,2,3,2,6,-4,5,Júlio César,Eduardo Salvio,1
+2014-2015,GR,itRoma,6,1,2,3,8,14,-6,5,Morgan De Sanctis,Gervinho,3
+2014-2015,GR,ruCSKA Moscow,6,1,2,3,6,13,-7,5,Igor Akinfeev,Seydou Doumbia,3
+2014-2015,GR,trGalatasaray,6,0,1,5,4,19,-15,1,Fernando Muslera,Burak Y,2
+Rk,Squad,MP,W,D,L,GF,GA,GD,Pts,Attendance,Notes,Goalkeeper,Goalkeeper
+2013-2014,W,esReal Madrid,13,10,2,1,41,10,+31,32,Iker Casillas,Cristiano Ronaldo,17
+2013-2014,F,esAtlético Madrid,13,7,5,1,26,10,+16,26,Thibaut Courtois,Diego Costa,8
+2013-2014,SF,deBayern Munich,12,6,4,2,24,13,+11,22,Manuel Neuer,Thomas M,5
+2013-2014,SF,engChelsea,12,4,5,3,19,10,+9,17,Petr Čech,Fernando Torres,4
+2013-2014,QF,frParis S-G,10,6,2,2,25,9,+16,20,Salvatore Sirigu,Zlatan Ibrahimovi,10
+2013-2014,QF,esBarcelona,10,5,3,2,21,8,+13,18,Víctor Valdés,Lionel Messi,8
+2013-2014,QF,engManchester Utd,10,5,3,2,17,9,+8,18,David de Gea,Robin van Persie,4
+2013-2014,QF,deDortmund,10,5,2,3,18,13,+5,17,Roman Weidenfeller,Robert Lewandowski,6
+2013-2014,R16,ruZenit,12,4,5,3,23,17,+6,17,Yuri Lodygin,Hulk,4
+2013-2014,R16,engArsenal,10,5,2,3,14,8,+6,17,Wojciech Szczęsny,Olivier Giroud,2
+2013-2014,R16,engManchester City,8,5,0,3,19,14,+5,15,Joe Hart,Sergio Ag,6
+2013-2014,R16,deSchalke 04,10,4,2,4,12,18,-6,14,"Ralf Fährmann,Timo Hildebrand",Julian Draxler,3
+2013-2014,R16,grOlympiacos,8,4,1,3,12,11,+1,13,Roberto,Kostas Mitroglou,3
+2013-2014,R16,itMilan,10,2,5,3,13,11,+2,11,Christian Abbiati,Kak,2
+2013-2014,R16,deLeverkusen,8,3,1,4,10,16,-6,10,Bernd Leno,Simon Rolfes,3
+2013-2014,R16,trGalatasaray,8,2,2,4,9,17,-8,8,Fernando Muslera,Umut Bulut,3
+2013-2014,GR,czViktoria Plzeň,12,6,1,5,26,24,+2,19,Matúš Kozáčik,Daniel Kol,1
+2013-2014,GR,chBasel,10,4,4,2,15,11,+4,16,Yann Sommer,Mohamed Salah,2
+2013-2014,GR,roSteaua,12,3,6,3,13,15,-2,15,Ciprian Tătărușanu,Federico Piovaccari,1
+2013-2014,GR,atAustria Wien,10,3,4,3,10,13,-3,13,Heinz Lindner,Roman Kienast,2
+2013-2014,GR,itNapoli,6,4,0,2,10,9,+1,12,Pepe Reina,Gonzalo Higua,4
+2013-2014,GR,sctCeltic,12,3,3,6,12,16,-4,12,Fraser Forster,Beram Kayal,1
+2013-2014,GR,ptBenfica,6,3,1,2,8,8,0,10,Artur Moraes,Filip,1
+2013-2014,GR,uaShakhtar,6,2,2,2,7,6,+1,8,Andriy Pyatov,Alex Teixeira,3
+2013-2014,GR,nlAjax,6,2,2,2,5,8,-3,8,Jasper Cillessen,Lasse Sch,2
+2013-2014,GR,itJuventus,6,1,3,2,9,9,0,6,Gianluigi Buffon,Arturo Vidal,5
+2013-2014,GR,ptPorto,6,1,2,3,4,7,-3,5,Helton Arruda,Lucho Gonz,2
+2013-2014,GR,esReal Sociedad,8,1,2,5,5,10,-5,5,Claudio Bravo,Carlos Vela,1
+2013-2014,GR,dkFC Copenhagen,6,1,1,4,4,13,-9,4,Johan Wiland,Nicolai J,1
+2013-2014,GR,ruCSKA Moscow,6,1,0,5,8,17,-9,3,Igor Akinfeev,Keisuke Honda,2
+2013-2014,GR,beAnderlecht,6,0,1,5,4,17,-13,1,"Thomas Kaminski,Silvio Proto",Massimo Bruno,1
+2013-2014,GR,frMarseille,6,0,0,6,5,14,-9,0,Steve Mandanda,Andr,2
+Rk,Squad,MP,W,D,L,GF,GA,GD,Pts,Attendance,Notes,Goalkeeper,Goalkeeper
+2012-2013,W,deBayern Munich,13,10,2,1,31,11,+20,32,Manuel Neuer,Thomas M,8
+2012-2013,F,deDortmund,13,5,6,2,24,14,+10,21,Roman Weidenfeller,Robert Lewandowski,10
+2012-2013,SF,esReal Madrid,12,5,4,3,26,18,+8,19,Diego López,Cristiano Ronaldo,12
+2012-2013,SF,esBarcelona,12,4,5,3,18,17,+1,17,Víctor Valdés,Lionel Messi,8
+2012-2013,QF,frParis S-G,10,6,3,1,20,8,+12,21,Salvatore Sirigu,Ezequiel Lavezzi,5
+2012-2013,QF,esMálaga,12,4,6,2,18,9,+9,18,Willy Caballero,Eliseu,4
+2012-2013,QF,itJuventus,10,4,5,1,17,8,+9,17,Gianluigi Buffon,Fabio Quagliarella,4
+2012-2013,QF,trGalatasaray,10,4,3,3,14,14,0,15,Fernando Muslera,Burak Y,8
+2012-2013,R16,sctCeltic,12,6,2,4,17,14,+3,20,Fraser Forster,Georgios Samaras,3
+2012-2013,R16,ptPorto,8,5,1,2,11,6,+5,16,Helton Arruda,Jackson Mart,3
+2012-2013,R16,esValencia,8,4,2,2,14,8,+6,14,Vicente Guaita,Jonas,5
+2012-2013,R16,deSchalke 04,8,3,5,0,13,10,+3,14,Lars Unnerstall,Klaas,4
+2012-2013,R16,engManchester Utd,8,4,2,2,11,9,+2,14,David de Gea,Javier Hern,3
+2012-2013,R16,engArsenal,8,4,1,3,13,11,+2,13,Vito Mannone,Lukas Podolski,4
+2012-2013,R16,uaShakhtar,8,3,2,3,14,13,+1,11,Andriy Pyatov,Willian,4
+2012-2013,R16,itMilan,8,3,2,3,9,10,-1,11,Christian Abbiati,Stephan El Shaarawy,2
+2012-2013,GR,roCFR Cluj,10,6,2,2,15,9,+6,20,Mário Felgueiras,Rui Pedro,3
+2012-2013,GR,byBATE Borisov,12,5,3,4,18,19,-1,18,Andrey Harbunow,Vitali Rodionov,2
+2012-2013,GR,uaDynamo Kyiv,10,4,3,3,13,14,-1,15,Maksym Koval,Oleh Husyev,2
+2012-2013,GR,hrDinamo Zagreb,12,3,4,5,13,18,-5,13,Ivan Kelava,Ivan Krstanovi,1
+2012-2013,GR,beAnderlecht,10,3,3,4,18,11,+7,12,Silvio Proto,Dieumerci Mbokani,2
+2012-2013,GR,engChelsea,6,3,1,2,16,10,+6,10,Petr Čech,Oscar,5
+2012-2013,GR,grOlympiacos,6,3,0,3,9,9,0,9,Roy Carroll,Kostas Mitroglou,4
+2012-2013,GR,ptBenfica,6,2,2,2,5,5,0,8,Artur Moraes,scar Cardozo,2
+2012-2013,GR,ruZenit,6,2,1,3,6,9,-3,7,Vyacheslav Malafeev,Danny,2
+2012-2013,GR,ruSpartak Moscow,8,2,1,5,10,16,-6,7,"Andriy Dykan,Sergei Pesyakov...",Emmanuel Emenike,2
+2012-2013,GR,ptBraga,8,1,2,5,9,15,-6,5,Beto,Alan,5
+2012-2013,GR,nlAjax,6,1,1,4,8,16,-8,4,Kenneth Vermeer,Siem de Jong,3
+2012-2013,GR,frLille,8,1,1,6,6,14,-8,4,Mickaël Landreau,Salomon Kalou,1
+2012-2013,GR,engManchester City,6,0,3,3,7,11,-4,3,Joe Hart,Sergio Ag,2
+2012-2013,GR,frMontpellier,6,0,2,4,6,12,-6,2,Geoffrey Jourdren,Youn,2
+2012-2013,GR,dkNordsjælland,6,0,1,5,4,22,-18,1,Jesper Hansen,Joshua John,1
+Rk,Squad,MP,W,D,L,GF,GA,GD,Pts,Attendance,Notes,Goalkeeper,Goalkeeper
+2011-2012,W,engChelsea,13,5,6,2,25,12,+13,21,Petr Čech,Didier Drogba,6
+2011-2012,F,deBayern Munich,15,8,4,3,29,11,+18,28,Manuel Neuer,Mario G,12
+2011-2012,SF,esReal Madrid,12,7,4,1,35,9,+26,25,Iker Casillas,Cristiano Ronaldo,10
+2011-2012,SF,esBarcelona,12,6,5,1,35,10,+25,23,Víctor Valdés,Lionel Messi,14
+2011-2012,QF,ptBenfica,14,4,7,3,21,14,+7,19,Artur Moraes,scar Cardozo,4
+2011-2012,QF,cyAPOEL FC,16,4,7,5,20,17,+3,19,Dionisis Chiotis,Gustavo Manduca,4
+2011-2012,QF,itMilan,10,3,4,3,16,14,+2,13,Christian Abbiati,Zlatan Ibrahimovi,5
+2011-2012,QF,frMarseille,10,4,1,5,9,10,-1,13,Steve Mandanda,Andr,4
+2011-2012,R16,engArsenal,10,5,3,2,13,11,+2,18,Wojciech Szczęsny,Robin van Persie,4
+2011-2012,R16,frLyon,10,4,3,3,14,10,+4,15,Hugo Lloris,Baf,5
+2011-2012,R16,itNapoli,8,4,2,2,14,11,+3,14,Morgan De Sanctis,Edinson Cavani,5
+2011-2012,R16,chBasel,8,4,2,2,12,17,-5,14,Yann Sommer,Alexander Frei,5
+2011-2012,R16,ruZenit,8,3,3,2,10,9,+1,12,Vyacheslav Malafeev,Roman Shirokov,5
+2011-2012,R16,itInter,8,3,2,3,10,9,+1,11,Júlio César,Giampaolo Pazzini,3
+2011-2012,R16,deLeverkusen,8,3,1,4,10,18,-8,10,Bernd Leno,Eren Derdiyok,2
+2011-2012,R16,ruCSKA Moscow,8,2,3,3,11,13,-2,9,Vladimir Gabulov,Seydou Doumbia,5
+2011-2012,GR,czViktoria Plzeň,12,4,5,3,22,16,+6,17,Marek Čech,Marek Bako,2
+2011-2012,GR,hrDinamo Zagreb,12,3,2,7,13,26,-13,11,Ivan Kelava,Fatos Be,1
+2011-2012,GR,engManchester City,6,3,1,2,9,6,+3,10,Joe Hart,Yaya Tour,3
+2011-2012,GR,byBATE Borisov,12,1,7,4,11,17,-6,10,Alyaksandr Hutar,Renan Bardini Bressan,2
+2011-2012,GR,engManchester Utd,6,2,3,1,11,8,+3,9,David de Gea,Wayne Rooney,2
+2011-2012,GR,grOlympiacos,6,3,0,3,8,6,+2,9,"Franco Costanzo,Balázs Megyeri",David Fuster,2
+2011-2012,GR,esValencia,6,2,2,2,12,7,+5,8,Diego Alves,Roberto Soldado,5
+2011-2012,GR,ptPorto,6,2,2,2,7,7,0,8,Helton Arruda,Hulk,4
+2011-2012,GR,nlAjax,6,2,2,2,6,6,0,8,Kenneth Vermeer,Christian Eriksen,1
+2011-2012,GR,trTrabzonspor,8,1,5,2,4,8,-4,8,Tolga Zengin,Halil Alt,1
+2011-2012,GR,beGenk,10,1,5,4,8,21,-13,8,László Köteles,Jelle Vossen,2
+2011-2012,GR,frLille,6,1,3,2,6,6,0,6,Mickaël Landreau,Moussa Sow,3
+2011-2012,GR,uaShakhtar,6,1,2,3,6,8,-2,5,Oleksandr Rybka,Luiz Adriano,3
+2011-2012,GR,deDortmund,6,1,1,4,6,12,-6,4,Roman Weidenfeller,Jakub B,1
+2011-2012,GR,esVillarreal,8,0,1,7,5,15,-10,1,Diego López,Cani,1
+2011-2012,GR,roOțelul Galați,6,0,0,6,3,11,-8,0,Branko Grahovac,Liviu Antal,1
+Rk,Squad,MP,W,D,L,GF,GA,GD,Pts,Attendance,Notes,Goalkeeper,Goalkeeper
+2010-2011,W,esBarcelona,13,8,4,1,30,9,+21,28,Víctor Valdés,Lionel Messi,12
+2010-2011,F,engManchester Utd,13,6,6,1,19,7,+12,24,Edwin van der Sar,Javier Hern,4
+2010-2011,SF,esReal Madrid,12,7,4,1,25,6,+19,25,Iker Casillas,Karim Benzema,6
+2010-2011,SF,deSchalke 04,12,5,4,3,22,14,+8,19,Manuel Neuer,Ra,5
+2010-2011,QF,uaShakhtar,10,6,2,2,19,14,+5,20,Andriy Pyatov,Eduardo da Silva,4
+2010-2011,QF,engChelsea,10,6,1,3,17,7,+10,19,Petr Čech,Nicolas Anelka,7
+2010-2011,QF,engTottenham,12,4,5,3,25,19,+6,17,Heurelho Gomes,Gareth Bale,4
+2010-2011,QF,itInter,10,4,1,5,18,21,-3,13,Júlio César,Samuel Eto,8
+2010-2011,R16,deBayern Munich,8,6,1,1,19,9,+10,19,"Hans-Jörg Butt,Thomas Kraft",Mario G,8
+2010-2011,R16,engArsenal,8,5,0,3,21,11,+10,15,Łukasz Fabiański,Cesc F,3
+2010-2011,R16,dkFC Copenhagen,12,3,5,4,12,11,+1,14,Johan Wiland,Dame N,2
+2010-2011,R16,frMarseille,8,4,1,3,13,5,+8,13,Steve Mandanda,Andr,3
+2010-2011,R16,esValencia,8,3,3,2,17,8,+9,12,César Sánchez,Roberto Soldado,6
+2010-2011,R16,frLyon,8,3,2,3,12,14,-2,11,Hugo Lloris,Michel Bastos,3
+2010-2011,R16,itRoma,8,3,1,4,12,17,-5,10,Júlio Sérgio,Marco Borriello,4
+2010-2011,R16,itMilan,8,2,3,3,7,8,-1,9,Christian Abbiati,Zlatan Ibrahimovi,4
+2010-2011,GR,ptBraga,10,6,0,4,14,16,-2,18,Felipe,Matheus Leite Nascimento,3
+2010-2011,GR,ilHapoel Tel Aviv,12,4,4,4,20,15,+5,16,Vincent Enyeama,Eran Zahavi,3
+2010-2011,GR,chBasel,10,5,1,4,17,12,+5,16,Franco Costanzo,Alexander Frei,3
+2010-2011,GR,rsPartizan,12,4,2,6,15,19,-4,14,Vladimir Stojković,Cl,2
+2010-2011,GR,nlAjax,10,2,5,3,13,16,-3,11,Maarten Stekelenburg,Toby Alderweireld,2
+2010-2011,GR,ruSpartak Moscow,6,3,0,3,7,10,-3,9,Andriy Dykan,Ari,2
+2010-2011,GR,deWerder Bremen,8,2,2,4,11,16,-5,8,Tim Wiese,Marko Arnautovi,2
+2010-2011,GR,skMŠK Žilina,12,1,4,7,13,22,-9,7,Martin Dúbravka,Bello Babatounde,1
+2010-2011,GR,nlTwente,6,1,3,2,9,11,-2,6,Nikolay Mihaylov,Nacer Chadli,3
+2010-2011,GR,ruRubin Kazan,6,1,3,2,2,4,-2,6,Sergey Ryzhikov,Christian Noboa,2
+2010-2011,GR,sctRangers,6,1,3,2,3,6,-3,6,Allan McGregor,Maurice Edu,1
+2010-2011,GR,ptBenfica,6,2,0,4,7,12,-5,6,Roberto,F,2
+2010-2011,GR,roCFR Cluj,6,1,1,4,6,12,-6,4,"Nuno Claro,Eduard Stăncioiu",Ionu,2
+2010-2011,GR,frAuxerre,8,1,1,6,5,13,-8,4,Olivier Sorin,Valter Birsa,1
+2010-2011,GR,grPanathinaikos,6,0,2,4,2,13,-11,2,Alexandros Tzorvas,C,1
+2010-2011,GR,trBursaspor,6,0,1,5,2,16,-14,1,Dimitar Ivankov,Pablo Batalla,1
+Rk,Squad,MP,W,D,L,GF,GA,GD,Pts,Attendance,Notes,Goalkeeper,Goalkeeper
+2009-2010,W,itInter,13,8,3,2,17,9,+8,27,Júlio César,Diego Milito,6
+2009-2010,F,deBayern Munich,13,7,1,5,21,15,+6,22,Hans-Jörg Butt,Ivica Oli,7
+2009-2010,SF,frLyon,14,8,3,3,25,12,+13,27,Hugo Lloris,Miralem Pjani,4
+2009-2010,SF,esBarcelona,12,3,7,2,20,10,+10,16,Víctor Valdés,Lionel Messi,8
+2009-2010,QF,frBordeaux,10,6,3,1,14,6,+8,21,Cédric Carrasso,Marouane Chamakh,5
+2009-2010,QF,engArsenal,12,5,4,3,26,14,+12,19,Manuel Almunia,Nicklas Bendtner,5
+2009-2010,QF,engManchester Utd,10,5,3,2,21,12,+9,18,Edwin van der Sar,Wayne Rooney,5
+2009-2010,QF,ruCSKA Moscow,10,4,3,3,13,14,-1,15,Igor Akinfeev,Milo,4
+2009-2010,R16,itFiorentina,10,5,3,2,21,14,+7,18,Sébastien Frey,Stevan Joveti,4
+2009-2010,R16,grOlympiacos,12,5,3,4,12,8,+4,18,Antonios Nikopolidis,Kostas Mitroglou,2
+2009-2010,R16,esSevilla,8,4,3,1,13,7,+6,15,Andrés Palop,Lu,2
+2009-2010,R16,engChelsea,8,4,3,1,12,7,+5,15,Petr Čech,Salomon Kalou,3
+2009-2010,R16,ptPorto,8,5,0,3,10,9,+1,15,Helton Arruda,Radamel Falcao,4
+2009-2010,R16,esReal Madrid,8,4,2,2,16,9,+7,14,Iker Casillas,Cristiano Ronaldo,7
+2009-2010,R16,deStuttgart,10,3,5,2,12,12,0,14,Jens Lehmann,Zdravko Kuzmanovi,2
+2009-2010,R16,itMilan,8,2,3,3,10,14,-4,9,Dida,Ronaldinho,3
+2009-2010,GR,ilMaccabi Haifa,12,3,3,6,19,12,+7,12,Nir Davidovich,Desconocido,0
+2009-2010,GR,cyAPOEL FC,12,2,5,5,14,10,+4,11,Dionisis Chiotis,Nenad Mirosavljevi,2
+2009-2010,GR,chZürich,10,3,2,5,15,18,-3,11,Johnny Leoni,Silvan Aegerter,1
+2009-2010,GR,huDebrecen,12,3,2,7,14,23,-9,11,Vukašin Poleksić,Adamo Coulibaly,2
+2009-2010,GR,roUnirea Urziceni,6,2,2,2,8,8,0,8,Giedrius Arlauskis,Marius Bila,1
+2009-2010,GR,itJuventus,6,2,2,2,4,7,-3,8,Gianluigi Buffon,Mauro Camoranesi,1
+2009-2010,GR,deWolfsburg,6,2,1,3,9,8,+1,7,Diego Benaglio,Edin D,4
+2009-2010,GR,frMarseille,6,2,1,3,10,10,0,7,Steve Mandanda,Lucho Gonz,2
+2009-2010,GR,engLiverpool,6,2,1,3,5,7,-2,7,Pepe Reina,Yossi Benayoun,2
+2009-2010,GR,esAtlético Madrid,8,1,4,3,8,14,-6,7,Sergio Asenjo,Sergio Ag,2
+2009-2010,GR,ruRubin Kazan,6,1,3,2,4,7,-3,6,Sergey Ryzhikov,G,1
+2009-2010,GR,uaDynamo Kyiv,6,1,2,3,7,9,-2,5,Oleksandr Shovkovskiy,Taras Mykhalyk,1
+2009-2010,GR,beStandard Liège,6,1,2,3,7,9,-2,5,Sinan Bolat,Milan Jovanovi,2
+2009-2010,GR,nlAZ Alkmaar,6,0,4,2,4,8,-4,4,Sergio Romero,Jeremain Lens,2
+2009-2010,GR,trBeşiktaş,6,1,1,4,3,8,-5,4,Rüştü Reçber,Bob,1
+2009-2010,GR,sctRangers,6,0,2,4,4,13,-9,2,Allan McGregor,Madjid Bougherra,1
+Rk,Squad,MP,W,D,L,GF,GA,GD,Pts,Attendance,Notes,Goalkeeper,Goalkeeper
+2008-2009,W,esBarcelona,15,8,6,2,36,14,+22,30,Víctor Valdés,Lionel Messi,9
+2008-2009,F,engManchester Utd,13,6,7,1,18,8,+10,25,Edwin van der Sar,Dimitar Berbatov,4
+2008-2009,SF,engArsenal,14,7,3,4,23,11,+12,24,Manuel Almunia,Emmanuel Adebayor,5
+2008-2009,SF,engChelsea,12,5,6,1,20,13,+7,21,Petr Čech,Didier Drogba,5
+2008-2009,QF,engLiverpool,12,7,4,1,22,12,+10,25,Pepe Reina,Steven Gerrard,7
+2008-2009,QF,deBayern Munich,10,6,3,1,25,10,+15,21,Michael Rensing,Miroslav Klose,7
+2008-2009,QF,ptPorto,10,4,3,3,13,13,0,15,Helton Arruda,Lisandro L,6
+2008-2009,QF,esVillarreal,10,3,5,2,13,13,0,14,Diego López,Joseba Llorente,4
+2008-2009,R16,grPanathinaikos,12,6,3,3,16,11,+5,21,Mario Galinović,Vangelis Mantzios,4
+2008-2009,R16,esAtlético Madrid,10,4,5,1,15,7,+8,17,Leo Franco,Sergio Ag,3
+2008-2009,R16,itJuventus,10,4,5,1,14,7,+7,17,Alex Manninger,Alessandro Del Piero,5
+2008-2009,R16,itRoma,8,5,0,3,13,7,+6,15,Doni,Matteo Brighi,3
+2008-2009,R16,frLyon,8,3,3,2,17,16,+1,12,Hugo Lloris,Karim Benzema,5
+2008-2009,R16,esReal Madrid,8,4,0,4,9,10,-1,12,Iker Casillas,Ra,3
+2008-2009,R16,ptSporting CP,8,4,0,4,9,20,-11,12,Rui Patrício,Li,2
+2008-2009,R16,itInter,8,2,3,3,8,9,-1,9,Júlio César,Adriano,1
+2008-2009,GR,uaDynamo Kyiv,10,5,3,2,16,9,+7,18,Stanislav Bohush,Roman Eremenko,1
+2008-2009,GR,cyAnorthosis,12,5,3,4,18,12,+6,18,Arjan Beqaj,Nikolaos Frousos,1
+2008-2009,GR,dkAalborg,10,5,3,2,20,15,+5,18,Karim Zaza,Jeppe Curth,2
+2008-2009,GR,byBATE Borisov,12,4,5,3,12,12,0,17,Syarhey Vyeramko,Sergey Krivets,1
+2008-2009,GR,uaShakhtar,8,5,0,3,16,8,+8,15,Andriy Pyatov,J,4
+2008-2009,GR,trFenerbahçe,10,3,3,4,15,14,+1,12,Volkan Demirel,Dani G,2
+2008-2009,GR,frMarseille,8,3,1,4,8,8,0,10,Steve Mandanda,Mamadou Niang,3
+2008-2009,GR,itFiorentina,8,2,4,2,7,8,-1,10,Sébastien Frey,Alberto Gilardino,4
+2008-2009,GR,chBasel,10,2,3,5,9,20,-11,9,Franco Costanzo,David Abraham,1
+2008-2009,GR,deWerder Bremen,6,1,4,1,7,9,-2,7,Tim Wiese,Hugo Almeida,2
+2008-2009,GR,frBordeaux,6,2,1,3,5,11,-6,7,"Ulrich Ramé,Mathieu Valverde",Yoann Gourcuff,2
+2008-2009,GR,sctCeltic,6,1,2,3,4,7,-3,5,Artur Boruc,Shaun Maloney,1
+2008-2009,GR,ruZenit,6,1,2,3,4,7,-3,5,Vyacheslav Malafeev,Danny,2
+2008-2009,GR,roSteaua,8,1,2,5,6,14,-8,5,Róbinson Zapata,Arthuro,1
+2008-2009,GR,roCFR Cluj,6,1,1,4,5,9,-4,4,Eduard Stăncioiu,Yssouf Kon,2
+2008-2009,GR,nlPSV Eindhoven,6,1,0,5,5,14,-9,3,Andreas Isaksson,Danny Koevermans,4
+Rk,Squad,MP,W,D,L,GF,GA,GD,Pts,Attendance,Notes,Goalkeeper,Goalkeeper
+2007-2008,W,engManchester Utd,13,9,5,0,20,6,+14,32,Edwin van der Sar,Cristiano Ronaldo,8
+2007-2008,F,engChelsea,13,6,7,1,20,8,+12,25,Petr Čech,Didier Drogba,6
+2007-2008,SF,engLiverpool,14,8,3,3,34,12,+22,27,Pepe Reina,Steven Gerrard,6
+2007-2008,SF,esBarcelona,12,8,3,1,18,6,+12,27,Víctor Valdés,Lionel Messi,6
+2007-2008,QF,engArsenal,12,7,3,2,24,9,+15,24,Manuel Almunia,Cesc F,4
+2007-2008,QF,trFenerbahçe,12,7,2,3,18,14,+4,23,Volkan Demirel,Deivid,5
+2007-2008,QF,itRoma,10,5,2,3,15,11,+4,17,Doni,Mirko Vu,4
+2007-2008,QF,deSchalke 04,10,3,2,5,6,7,-1,11,Manuel Neuer,Kevin Kur,3
+2007-2008,R16,esSevilla,10,8,0,2,25,13,+12,24,Andrés Palop,Fr,5
+2007-2008,R16,itInter,8,5,0,3,12,7,+5,15,Júlio César,Zlatan Ibrahimovi,5
+2007-2008,R16,itMilan,8,4,2,2,12,7,+5,14,Zeljko Kalac,Filippo Inzaghi,4
+2007-2008,R16,ptPorto,8,4,2,2,9,8,+1,14,Helton Arruda,Lisandro L,3
+2007-2008,R16,grOlympiacos,8,3,3,2,11,10,+1,12,Antonios Nikopolidis,Darko Kova,3
+2007-2008,R16,esReal Madrid,8,3,2,3,15,13,+2,11,Iker Casillas,Ra,5
+2007-2008,R16,frLyon,8,3,2,3,12,12,0,11,Rémy Vercoutre,Karim Benzema,4
+2007-2008,R16,sctCeltic,10,3,2,5,9,12,-3,11,Artur Boruc,Ji,1
+2007-2008,GR,noRosenborg,10,6,1,3,21,12,+9,19,Lars Hirschfeld,Yssouf Kon,2
+2007-2008,GR,sctRangers,10,5,2,3,11,9,+2,17,Allan McGregor,Charlie Adam,2
+2007-2008,GR,trBeşiktaş,10,5,1,4,11,16,-5,16,Hakan Arıkan,Bob,2
+2007-2008,GR,uaShakhtar,10,5,0,5,13,14,-1,15,Andriy Pyatov,Cristiano Lucarelli,3
+2007-2008,GR,ptBenfica,8,4,1,3,8,7,+1,13,Quim,scar Cardozo,3
+2007-2008,GR,czSlavia Prague,10,3,4,3,8,17,-9,13,Martin Vaniak,Zden,2
+2007-2008,GR,deWerder Bremen,8,4,0,4,13,16,-3,12,Tim Wiese,Boubacar Sanogo,3
+2007-2008,GR,esValencia,8,3,2,3,7,7,0,11,Santiago Cañizares,David Villa,2
+2007-2008,GR,roSteaua,10,3,2,5,11,13,-2,11,Róbinson Zapata,Valentin Badea,1
+2007-2008,GR,itLazio,8,2,3,3,12,13,-1,9,Marco Ballotta,Goran Pandev,4
+2007-2008,GR,ptSporting CP,6,2,1,3,9,8,+1,7,"Rui Patrício,Vladimir Stojković...",Li,4
+2007-2008,GR,frMarseille,6,2,1,3,6,9,-3,7,Steve Mandanda,Mamadou Niang,2
+2007-2008,GR,nlPSV Eindhoven,6,2,1,3,3,6,-3,7,Heurelho Gomes,Jefferson Farf,1
+2007-2008,GR,uaDynamo Kyiv,8,2,0,6,8,19,-11,6,Oleksandr Shovkovskiy,Isma,2
+2007-2008,GR,deStuttgart,6,1,0,5,7,15,-8,3,Raphael Schäfer,Mario G,3
+2007-2008,GR,ruCSKA Moscow,6,0,1,5,7,14,-7,1,"Igor Akinfeev,Veniamin Mandrykin",V,3
+Rk,Squad,MP,W,D,L,GF,GA,GD,Pts,Attendance,Notes,Goalkeeper,Goalkeeper
+2006-2007,W,itMilan,15,9,4,3,23,11,+12,31,Dida,Kak,10
+2006-2007,F,engLiverpool,15,9,3,4,22,12,+10,30,Pepe Reina,Peter Crouch,6
+2006-2007,SF,engManchester Utd,12,8,0,4,23,13,+10,24,Edwin van der Sar,Wayne Rooney,4
+2006-2007,SF,engChelsea,12,7,3,2,17,9,+8,24,Petr Čech,Didier Drogba,6
+2006-2007,QF,esValencia,12,5,4,3,19,12,+7,19,Santiago Cañizares,Fernando Morientes,6
+2006-2007,QF,itRoma,10,5,2,3,13,12,+1,17,Doni,Francesco Totti,4
+2006-2007,QF,deBayern Munich,10,4,4,2,16,11,+5,16,Oliver Kahn,Claudio Pizarro,4
+2006-2007,QF,nlPSV Eindhoven,10,4,2,4,8,11,-3,14,Heurelho Gomes,Alex,2
+2006-2007,R16,engArsenal,10,5,3,2,13,6,+7,18,Jens Lehmann,Emmanuel Ebou,1
+2006-2007,R16,frLyon,8,4,3,1,12,5,+7,15,Grégory Coupet,Karim Benzema,2
+2006-2007,R16,frLille,10,4,3,3,12,7,+5,15,Tony Sylva,Nicolas Fauvergue,2
+2006-2007,R16,esBarcelona,8,4,2,2,14,6,+8,14,Víctor Valdés,Ei,3
+2006-2007,R16,esReal Madrid,8,4,2,2,18,12,+6,14,Iker Casillas,Ruud van Nistelrooy,6
+2006-2007,R16,ptPorto,8,3,3,2,11,7,+4,12,Helton Arruda,Lucho Gonz,3
+2006-2007,R16,itInter,8,3,3,2,7,7,0,12,Júlio César,Julio Ricardo Cruz,3
+2006-2007,R16,sctCeltic,8,3,1,4,8,10,-2,10,Artur Boruc,Kenny Miller,3
+2006-2007,GR,roSteaua,10,4,3,3,16,14,+2,15,"Carlos Fernandes,Cornel Cernea",Nicolae Dic,4
+2006-2007,GR,ruCSKA Moscow,8,4,2,2,9,5,+4,14,Igor Akinfeev,Daniel Carvalho,1
+2006-2007,GR,grAEK Athens,8,4,2,2,11,10,+1,14,Stefano Sorrentino,J,2
+2006-2007,GR,dkFC Copenhagen,10,4,2,4,12,12,0,14,Jesper Christiansen,Marcus Allb,3
+2006-2007,GR,uaDynamo Kyiv,10,3,3,4,18,20,-2,12,Oleksandr Shovkovskiy,Maksim Shatskikh,2
+2006-2007,GR,uaShakhtar,8,3,3,2,10,13,-3,12,Bohdan Shust,Ciprian Marica,2
+2006-2007,GR,ptBenfica,8,3,2,3,11,9,+2,11,Quim,Fabrizio Miccoli,2
+2006-2007,GR,ruSpartak Moscow,10,2,5,3,10,13,-3,11,Wojciech Kowalewski,Maksym Kalynychenko,2
+2006-2007,GR,deWerder Bremen,6,3,1,2,7,5,+2,10,Tim Wiese,Torsten Frings,1
+2006-2007,GR,bgLevski Sofia,10,3,1,6,9,19,-10,10,Georgi Petkov,Mariyan Ognyanov,1
+2006-2007,GR,trGalatasaray,8,2,2,4,13,15,-2,8,Faryd Mondragón,Sa,2
+2006-2007,GR,frBordeaux,6,2,1,3,6,7,-1,7,Ulrich Ramé,Julien Faubert,2
+2006-2007,GR,ptSporting CP,6,1,2,3,3,6,-3,5,Ricardo,Carlos Bueno,1
+2006-2007,GR,deHamburger SV,8,1,2,5,8,16,-8,5,Stefan Wächter,Rafael van der Vaart,3
+2006-2007,GR,beAnderlecht,6,0,4,2,7,11,-4,4,Daniel Zítka,Nicol,2
+2006-2007,GR,grOlympiacos,6,0,3,3,6,11,-5,3,Antonios Nikopolidis,Nery Castillo,3
+Rk,Squad,MP,W,D,L,GF,GA,GD,Pts,Attendance,Notes,Goalkeeper,Goalkeeper
+2005-2006,W,esBarcelona,13,9,5,0,24,5,+19,32,Víctor Valdés,Ronaldinho,7
+2005-2006,F,engArsenal,13,8,5,1,15,4,+11,29,Jens Lehmann,Thierry Henry,5
+2005-2006,SF,esVillarreal,14,5,7,2,12,9,+3,22,Sebastián Viera,Diego Forl,3
+2005-2006,SF,itMilan,12,5,5,2,20,10,+10,20,Dida,Andriy Shevchenko,9
+2005-2006,QF,itInter,12,7,3,2,17,9,+8,24,"Júlio César,Francesco Toldo",Adriano,5
+2005-2006,QF,frLyon,10,7,2,1,19,7,+12,23,Grégory Coupet,Juninho Pernambucano,3
+2005-2006,QF,itJuventus,10,6,1,3,16,11,+5,19,Christian Abbiati,David Trezeguet,6
+2005-2006,QF,ptBenfica,10,4,3,3,8,7,+1,15,Marcelo Moretto,Fabrizio Miccoli,2
+2005-2006,R16,engLiverpool,14,8,3,3,20,7,+13,27,Pepe Reina,Luis Garc,2
+2005-2006,R16,nlAjax,10,4,4,2,17,12,+5,16,Maarten Stekelenburg,Yannis Anastasiou,3
+2005-2006,R16,sctRangers,10,3,6,1,14,11,+3,15,Ronald Waterreus,Peter L,4
+2005-2006,R16,deBayern Munich,8,4,2,2,12,9,+3,14,Oliver Kahn,Sebastian Deisler,3
+2005-2006,R16,deWerder Bremen,10,4,1,5,20,18,+2,13,Andreas Reinke,Johan Micoud,4
+2005-2006,R16,engChelsea,8,3,3,2,9,4,+5,12,Petr Čech,Ricardo Carvalho,2
+2005-2006,R16,esReal Madrid,8,3,2,3,10,9,+1,11,Iker Casillas,Iv,2
+2005-2006,R16,nlPSV Eindhoven,8,3,1,4,4,11,-7,10,Heurelho Gomes,Jefferson Farf,2
+2005-2006,GR,chThun,10,4,2,4,11,11,0,14,Eldin Jakupović,Adriano Pimenta,1
+2005-2006,GR,skArtmedia,12,3,5,4,14,16,-2,14,Juraj Čobej,Bal,2
+2005-2006,GR,itUdinese,8,4,1,3,14,14,0,13,Morgan De Sanctis,Vincenzo Iaquinta,4
+2005-2006,GR,engManchester Utd,8,3,3,2,9,4,+5,12,Edwin van der Sar,Ryan Giggs,1
+2005-2006,GR,beAnderlecht,10,4,0,6,10,10,0,12,Silvio Proto,Vincent Kompany,1
+2005-2006,GR,esBetis,8,3,2,3,6,9,-3,11,Toni Doblas,Arzu,1
+2005-2006,GR,beClub Brugge,8,3,1,4,7,8,-1,10,Tomislav Butina,Bo,2
+2005-2006,GR,atRapid Wien,10,3,1,6,14,19,-5,10,Helge Payer,Marek Kincl,2
+2005-2006,GR,deSchalke 04,6,2,2,2,12,9,+3,8,Frank Rost,Levan Kobiashvili,3
+2005-2006,GR,noRosenborg,8,2,2,4,10,14,-4,8,Espen Johnsen,Daniel Braaten,1
+2005-2006,GR,grPanathinaikos,8,2,1,5,9,20,-11,7,Mario Galinović,Constantinos Charalambides,1
+2005-2006,GR,frLille,6,1,3,2,1,2,-1,6,Tony Sylva,Milenko A,1
+2005-2006,GR,ptPorto,6,1,2,3,8,9,-1,5,Vítor Baía,Pepe,2
+2005-2006,GR,grOlympiacos,6,1,1,4,7,13,-6,4,Antonios Nikopolidis,Pantelis Kafes,2
+2005-2006,GR,trFenerbahçe,6,1,1,4,7,14,-7,4,Volkan Demirel,Alex,3
+2005-2006,GR,czSparta Prague,6,0,2,4,2,9,-7,2,Jaromír Blažek,Miroslav Matu,1
+Rk,Squad,MP,W,D,L,GF,GA,GD,Pts,Attendance,Notes,Goalkeeper,Goalkeeper
+2004-2005,W,engLiverpool,15,8,5,3,20,10,+10,29,Jerzy Dudek,Luis Garc,5
+2004-2005,F,itMilan,13,9,3,2,23,9,+14,30,Dida,Hern,6
+2004-2005,SF,nlPSV Eindhoven,14,7,3,4,21,15,+6,24,Heurelho Gomes,DaMarcus Beasley,3
+2004-2005,SF,engChelsea,12,6,2,4,21,13,+8,20,Petr Čech,Didier Drogba,5
+2004-2005,QF,itJuventus,12,7,3,2,15,7,+8,24,Gianluigi Buffon,Pavel Nedv,2
+2004-2005,QF,itInter,12,6,4,2,23,12,+11,22,Francesco Toldo,Adriano,7
+2004-2005,QF,frLyon,10,6,3,1,29,12,+17,21,Grégory Coupet,Sylvain Wiltord,6
+2004-2005,QF,deBayern Munich,10,5,1,4,20,13,+7,16,Oliver Kahn,Roy Makaay,7
+2004-2005,R16,esReal Madrid,10,6,2,2,17,11,+6,20,Iker Casillas,Lu,4
+2004-2005,R16,frMonaco,10,6,0,4,19,7,+12,18,Flavio Roma,Javier Saviola,4
+2004-2005,R16,engManchester Utd,10,5,2,3,19,12,+7,17,Roy Carroll,Ruud van Nistelrooy,8
+2004-2005,R16,deLeverkusen,10,4,2,4,21,15,+6,14,Hans-Jörg Butt,Dimitar Berbatov,3
+2004-2005,R16,engArsenal,8,3,4,1,13,9,+4,13,Jens Lehmann,Thierry Henry,5
+2004-2005,R16,esBarcelona,8,4,1,3,13,11,+2,13,Víctor Valdés,Samuel Eto,4
+2004-2005,R16,deWerder Bremen,8,4,1,3,14,16,-2,13,Andreas Reinke,Ivan Klasni,5
+2004-2005,R16,ptPorto,8,2,3,3,6,10,-4,9,Vítor Baía,Benni McCarthy,3
+2004-2005,GR,uaShakhtar,10,5,1,4,15,13,+2,16,Jan Laštůvka,Julius Aghahowa,2
+2004-2005,GR,ruCSKA Moscow,10,4,3,3,10,7,+3,15,Igor Akinfeev,Sergei Semak,4
+2004-2005,GR,noRosenborg,10,4,2,4,15,17,-2,14,Espen Johnsen,Thorstein Helstad,2
+2004-2005,GR,ilMaccabi Tel Aviv,10,4,2,4,9,12,-3,14,Liran Strauber,Baruch Dego,4
+2004-2005,GR,uaDynamo Kyiv,8,4,1,3,14,10,+4,13,Oleksandr Shovkovskiy,Florin Cernat,2
+2004-2005,GR,grOlympiacos,6,3,1,2,5,5,0,10,Antonios Nikopolidis,Predrag,1
+2004-2005,GR,grPanathinaikos,6,2,3,1,11,8,+3,9,Kostas Chalkias,Ezequiel Gonz,3
+2004-2005,GR,trFenerbahçe,6,3,0,3,10,13,-3,9,Rüştü Reçber,Tuncay,5
+2004-2005,GR,czSparta Prague,10,2,2,6,8,17,-9,8,Jaromír Blažek,Tom,1
+2004-2005,GR,esValencia,6,2,1,3,6,10,-4,7,Santiago Cañizares,Vicente Rodr,2
+2004-2005,GR,esLa Coruña,8,1,3,4,3,9,-6,6,José Molina,Desconocido,0
+2004-2005,GR,frParis S-G,6,1,2,3,3,8,-5,5,Lionel Letizi,Charles,1
+2004-2005,GR,sctCeltic,6,1,2,3,4,10,-6,5,David Marshall,John Hartson,1
+2004-2005,GR,nlAjax,6,1,1,4,6,10,-4,4,"Bogdan Lobonț,Hans Vonk...",Tom,1
+2004-2005,GR,beAnderlecht,8,1,0,7,7,18,-11,3,Daniel Zítka,Christian Wilhelmsson,2
+2004-2005,GR,itRoma,6,0,1,5,4,16,-12,1,Ivan Pelizzoli,Antonio Cassano,1
+Rk,Squad,MP,W,D,L,GF,GA,GD,Pts,Attendance,Notes,Goalkeeper,Goalkeeper
+2003-2004,W,ptPorto,13,7,6,1,20,12,+8,27,Vítor Baía,Benni McCarthy,4
+2003-2004,F,frMonaco,13,6,4,4,27,19,+8,22,Flavio Roma,Fernando Morientes,9
+2003-2004,SF,engChelsea,14,8,4,2,21,10,+11,28,Carlo Cudicini,Frank Lampard,4
+2003-2004,SF,esLa Coruña,14,7,3,4,20,17,+3,24,José Molina,Albert Luque,4
+2003-2004,QF,esReal Madrid,10,6,3,1,18,11,+7,21,Iker Casillas,Ronaldo,4
+2003-2004,QF,engArsenal,10,5,2,3,16,11,+5,17,Jens Lehmann,Thierry Henry,5
+2003-2004,QF,itMilan,10,5,2,3,12,9,+3,17,Dida,Kak,4
+2003-2004,QF,frLyon,10,5,2,3,11,11,0,17,Grégory Coupet,Juninho Pernambucano,5
+2003-2004,R16,engManchester Utd,8,5,1,2,15,5,+10,16,Tim Howard,Ruud van Nistelrooy,4
+2003-2004,R16,ruLoko Moscow,10,4,2,4,12,11,+1,14,Sergei Ovchinnikov,Dmitri Loskov,2
+2003-2004,R16,itJuventus,8,4,1,3,15,8,+7,13,Gianluigi Buffon,David Trezeguet,4
+2003-2004,R16,deStuttgart,8,4,1,3,9,7,+2,13,Timo Hildebrand,Kevin Kur,3
+2003-2004,R16,czSparta Prague,10,3,4,3,11,13,-2,13,Jaromír Blažek,Karel Poborsk,2
+2003-2004,R16,esCelta Vigo,10,3,3,4,12,13,-1,12,José Manuel Pinto,Jos,2
+2003-2004,R16,deBayern Munich,8,2,4,2,7,7,0,10,Oliver Kahn,Roy Makaay,5
+2003-2004,R16,esReal Sociedad,8,2,3,3,8,10,-2,9,Sander Westerveld,Darko Kova,2
+2003-2004,GR,sctCeltic,10,6,1,3,18,7,+11,19,Magnus Hedman,Chris Sutton,3
+2003-2004,GR,beAnderlecht,10,5,2,3,11,9,+2,17,Daniel Zítka,Aruna Dindane,2
+2003-2004,GR,uaDynamo Kyiv,8,4,1,3,13,9,+4,13,Oleksandr Shovkovskiy,Diogo Rinc,3
+2003-2004,GR,trGalatasaray,8,4,1,3,12,8,+4,13,Faryd Mondragón,Hakan,5
+2003-2004,GR,itLazio,8,3,2,3,10,11,-1,11,Angelo Peruzzi,Simone Inzaghi,3
+2003-2004,GR,beClub Brugge,8,3,2,3,8,9,-1,11,Dany Verlinden,Rune Lange,2
+2003-2004,GR,nlPSV Eindhoven,6,3,1,2,8,7,+1,10,Ronald Waterreus,Wilfred Bouma,2
+2003-2004,GR,nlAjax,8,3,1,4,9,9,0,10,Bogdan Lobonț,Wesley Sonck,4
+2003-2004,GR,frMarseille,8,2,2,4,10,11,-1,8,Vedran Runje,Didier Drogba,5
+2003-2004,GR,itInter,6,2,2,2,8,11,-3,8,Francesco Toldo,Daniele Adani,2
+2003-2004,GR,rsPartizan,10,1,5,4,7,12,-5,8,Đorđe Pantić,Andrija Deliba,3
+2003-2004,GR,sctRangers,8,2,2,4,7,12,-5,8,Stefan Klos,Emerson,1
+2003-2004,GR,trBeşiktaş,6,2,1,3,5,7,-2,7,Óscar Córdoba,Daniel Pancu,2
+2003-2004,GR,grAEK Athens,8,1,2,5,4,13,-9,5,Chrisostomos Michailidis,Vasilios Tsiartas,1
+2003-2004,GR,grOlympiacos,6,1,1,4,6,13,-7,4,Fanis Katergiannakis,Nery Castillo,2
+2003-2004,GR,grPanathinaikos,6,1,1,4,5,13,-8,4,Antonios Nikopolidis,Michalis Konstantinou,2
