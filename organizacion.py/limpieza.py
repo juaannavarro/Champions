@@ -36,7 +36,7 @@ def standardize_headers(df):
         'Equipo': 'Team',
         'Goles': 'Goals',
         'Asistencias': 'Assists',
-        'Jugador': 'Player',
+         'Jugador': 'Player',
         'País': 'Country',
         'Posición': 'Position',
         'Edad': 'Age',
@@ -88,7 +88,8 @@ data_files = {
     '23_24': 'datos/23_24.csv',
     'equipos': 'datos/equipos.csv',
     'goleadores': 'datos/goleadores.csv',
-    'jugadores': 'datos/jugadores.csv'
+    'jugadores': 'datos/jugadores.csv',
+    'zz': 'datos/zz.csv'
 }
 
 cleaned_data = {}
