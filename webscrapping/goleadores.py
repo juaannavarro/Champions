@@ -6,7 +6,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 import time
 import csv
-
+import os
 # Configuración de Chrome para correr en modo sin cabeza
 chrome_options = Options()
 chrome_options.add_argument("--headless")  # Añade el argumento para correr Chrome en modo sin cabeza
@@ -60,9 +60,10 @@ if tabla_goleadores:
         jugador_info['Asistencias'] = asistencias.text.strip() if asistencias else '0'
         
         goleadores.append(jugador_info)
+        
+    file_path = os.path.join(os.getcwd(), 'datos', 'goleadores.csv')
 
-    # Guardar los datos en un archivo CSV
-    with open('datos/goleadores.csv', 'w', newline='', encoding='utf-8') as file:
+    with open(file_path, 'w', newline='', encoding='utf-8') as file:
         writer = csv.DictWriter(file, fieldnames=['Ranking', 'Nombre', 'Equipo', 'Goles', 'Asistencias'])
         writer.writeheader()
         writer.writerows(goleadores)
