@@ -2,7 +2,10 @@ import pandas as pd
 from collections import defaultdict
 import networkx as nx
 import matplotlib.pyplot as plt
-    
+import numpy as np
+
+
+
 # Función para determinar el resultado del partido basado en el marcador
 def determine_outcome(score):
     home_goals, away_goals = map(int, score.split('-'))
@@ -81,3 +84,21 @@ nx.draw_networkx_edge_labels(G_simulated, pos=positions_simulated, edge_labels=e
 
 plt.title('Cadena de Markov Simulada: Probabilidades de Transición de Resultados de Partidos')
 plt.show()
+
+
+# Define the states in the order we want them to appear in the matrix
+states = ['W', 'D', 'L']
+
+# Initialize the transition matrix with zeros
+transition_matrix = np.zeros((len(states), len(states)))
+
+# Fill the matrix with the calculated probabilities
+for i, origin_state in enumerate(states):
+    for j, destination_state in enumerate(states):
+        transition_matrix[i, j] = transition_probabilities.get(origin_state, {}).get(destination_state, 0)
+
+# Create a DataFrame for better visualization and indexing
+transition_matrix_df = pd.DataFrame(transition_matrix, index=states, columns=states)
+
+print("\nMatriz de Transición de Resultados de Partidos:")
+print(transition_matrix_df)  # Display the transition matrix
